@@ -5,10 +5,12 @@ import LandingPage from "@/pages/landing";
 export default function Home() {
   return (
     <>
-      <Header />
-      <main>
-        <LandingPage />
-      </main>
+      <body className="bg-zinc-100 p">
+        <Header />
+        <main className="px-40">
+          <LandingPage />
+        </main>
+      </body>
     </>
   );
 }
