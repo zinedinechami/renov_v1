@@ -15,7 +15,7 @@ export default function LandingPage() {
             <li>- Sur Paris, Ile de France</li>
             <li>- Joiniable 7/7 </li>
           </ul>
-          <Button text={"Contactez nous !"} />
+          <Button text={"Je veux faire un devis !"} />
         </div>
         <Carousel />
       </section>

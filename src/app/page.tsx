@@ -5,7 +5,7 @@ import LandingPage from "@/pages/landing";
 export default function Home() {
   return (
     <>
-      <body className="bg-zinc-100 p">
+      <body className="bg-zinc-100 ">
         <Header />
         <main className="px-40">
           <LandingPage />
