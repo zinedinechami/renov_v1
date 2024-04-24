@@ -8,7 +8,7 @@ export function Carousel() {
 
   return (
     <div
-      className="embla mx-auto mt-12 h-56 max-w-lg border rounded-lg bg-zinc-100 shadow-lg"
+      className="embla mt-12 h-72 max-w-lg border rounded-lg bg-zinc-100 shadow-lg"
       ref={emblaRef}
     >
       {" "}
