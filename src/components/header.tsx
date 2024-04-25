@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <>
       <nav className=" h-16  ">
-        <h1 className="bebas-neue-regular text-center sm:text-4xl text-2xl pt-4 flex-col ">
+        <h1 className="bebas-neue-regular text-center sm:text-4xl text-2xl pt-4 flex-col text-zinc-900">
           RENOV À 9
         </h1>
         <div className=" absolute top-5 left-8">
