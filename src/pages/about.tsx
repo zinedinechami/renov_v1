@@ -8,11 +8,11 @@ export default function About() {
         <h1 className="bebas-neue-regular text-7xl  text-zinc-50">
           par = inserer nom
         </h1>
-        <div className="flex flex-row">
-          <div className="border rounded-full image-wrapper mr-28 mt-12">
+        <div className="flex md:flex-row flex-col">
+          <div className=" mx-auto rounded-full image-wrapper md:mr-28 mt-12">
             <Image src={img_ex} width={300} height={300} alt="person" />
           </div>
-          <p className="w-6/12 pt-5 mt-14 text-xl font-sans">
+          <p className="md:w-6/12 pt-5 mt-14 text-xl font-sans mx-auto">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
             rerum illo ducimus ex quos veniam explicabo doloribus beatae ut
             dolore iusto aperiam ipsa animi nesciunt commodi minus, eligendi
