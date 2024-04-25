@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <body className="bg-zinc-100 ">
         <Header />
-        <main className="px-40">
+        <main className="md:px-48 px-4">
           <LandingPage />
         </main>
       </body>

@@ -12,7 +12,7 @@ export function Carousel() {
       ref={emblaRef}
     >
       {" "}
-      <div className="embla__container h-full">
+      <div className="embla__container h-full ">
         {" "}
         <div className="embla__slide">Slide 1</div>{" "}
         <div className="embla__slide">Slide 2</div>{" "}
