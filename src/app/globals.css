@@ -44,3 +44,7 @@ body {
   font-family: "Bebas Neue", sans-serif;
   font-style: normal;
 }
+
+.image-wrapper img {
+  border-radius: 9999px;
+}
