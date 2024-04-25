@@ -7,7 +7,7 @@ import Services from "@/pages/services";
 export default function Home() {
   return (
     <>
-      <body className="bg-zinc-100 ">
+      <body>
         <Header />
         <main className="">
           <LandingPage />

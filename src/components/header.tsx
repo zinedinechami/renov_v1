@@ -2,12 +2,10 @@ import tiktok from "../assets/tiktok.png";
 import insta from "../assets/instagram.png";
 import Image from "next/image";
 
-// todo: make header static
-
 export default function Header() {
   return (
     <>
-      <nav className=" h-16 border ">
+      <nav className=" sticky top-0 w-full bg-zinc-50 h-16 border z-10">
         <h1 className="bebas-neue-regular text-center sm:text-4xl text-2xl pt-4 flex-col text-zinc-900 ">
           RENOV À 9
         </h1>
@@ -25,7 +23,7 @@ export default function Header() {
             </li>
           </ul>
         </div>
-        <button className=" absolute right-5 top-3 bebas-neue-regular sm:text-xl bg-zinc-900 hover:bg-zinc-700 text-white  py-2 px-4 border border-zinc-200 rounded shadow-lg">
+        <button className=" absolute right-5 top-3 bebas-neue-regular sm:text-xl bg-zinc-900 hover:bg-zinc-700 text-white  py-2 px-4 border border-zinc-200 rounded shadow-md">
           Contactez Nous
         </button>
       </nav>

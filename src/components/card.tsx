@@ -10,14 +10,14 @@ export default function Card() {
           <div className="bebas-neue-regular text-zinc-900  text-xl mb-2">
             Peinture
           </div>
-          <p className="text-zinc-900 text-base">
+          <div className="text-zinc-900 text-base">
             <ul>
               <li>- point 1</li>
               <li>- point 1</li>
               <li>- point 1</li>
               <li>- point 1</li>
             </ul>
-          </p>
+          </div>
         </div>
       </div>
     </>
