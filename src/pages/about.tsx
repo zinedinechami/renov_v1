@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function About() {
   return (
     <>
-      <section className=" bg-zinc-900 text-white lg:px-48 px-4 pt-20 pb-20 ">
+      <section className=" bg-zinc-900 text-white lg:px-48 px-4 pt-20  pb-32 ">
         <h1 className="bebas-neue-regular text-7xl  text-zinc-50">
           par = inserer nom
         </h1>
