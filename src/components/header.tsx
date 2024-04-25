@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Header() {
   return (
     <>
-      <nav className=" sticky top-0 w-full bg-zinc-50 h-16 border z-10">
+      <nav className=" sticky top-0 w-full bg-zinc-50 border h-16  z-10">
         <h1 className="bebas-neue-regular text-center sm:text-4xl text-2xl pt-4 flex-col text-zinc-900 ">
           RENOV À 9
         </h1>
