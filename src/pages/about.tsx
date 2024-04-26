@@ -5,7 +5,7 @@ export default function About() {
   return (
     <>
       <section className=" bg-zinc-900 text-white lg:px-48 px-4 pt-20  pb-32 ">
-        <h1 className="bebas-neue-regular font-bold text-5xl  text-zinc-50">
+        <h1 className="text-center bebas-neue-regular font-bold text-5xl  text-zinc-50">
           par = inserer nom
         </h1>
         <div className="flex md:flex-row flex-col">
