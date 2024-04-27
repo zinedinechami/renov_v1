@@ -8,11 +8,13 @@ import img2 from "../assets/fake_img1 (2).jpg";
 import img3 from "../assets/fake_img1 (3).jpg";
 
 export function Carousel() {
-  const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay()]);
+  const [emblaRef] = useEmblaCarousel({ loop: true }, [
+    Autoplay({ delay: 3500 }),
+  ]);
 
   return (
     <div
-      className="embla bg-zinc-50 mt-12 sm:h-80  max-w-lg  rounded-lg   shadow-lg"
+      className="embla bg-zinc-50 mt-12 sm:h-80  max-w-lg  rounded-xl   shadow-lg"
       ref={emblaRef}
     >
       <div className="embla__container h-full  ">

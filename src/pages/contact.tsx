@@ -2,20 +2,21 @@
 // Make height bigger
 // make a black email button
 // make a positive reinforcing message
+// make card alot higher with image on the right
 
 export default function Contact() {
   return (
     <>
-      <section id="contact" className="bg-zinc-900 flex pt-48  pb-48">
+      <section id="contact" className="bg-zinc-0 flex pt-18 lg:px-48 px-4 ">
         <div className="mx-auto  h-64   lg:flex">
           {/* <div className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style="background-image: url('/img/card-left.jpg')" title="Woman holding a mug">
   </div> */}
-          <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+          <div className=" border-zinc-500   bg-zinc-900 rounded-xl  p-4 flex flex-col justify-between shadow-lg">
             <div className="mb-8">
-              <div className="text-gray-900 font-bold text-xl mb-2">
+              <div className="text-zinc-50 font-bold text-xl mb-2">
                 New Text
               </div>
-              <p className="text-gray-700 text-base">
+              <p className="text-zinc-50 text-base">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Voluptatibus quia, nulla! Maiores et perferendis eaque,
                 exercitationem praesentium nihil.
