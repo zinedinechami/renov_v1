@@ -1,9 +1,12 @@
-import Button from "@/components/button";
+// todo: add a hand shake stock photo on the left side
+// Make height bigger
+// make a black email button
+// make a positive reinforcing message
 
 export default function Contact() {
   return (
     <>
-      <section className="bg-zinc-900 flex pt-28 pb-28">
+      <section id="contact" className="bg-zinc-900 flex pt-48  pb-48">
         <div className="mx-auto  h-64   lg:flex">
           {/* <div className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style="background-image: url('/img/card-left.jpg')" title="Woman holding a mug">
   </div> */}
@@ -19,7 +22,6 @@ export default function Contact() {
               </p>
             </div>
             <div className="flex items-center">
-              <Button text={"33 619513185"} />
               {/* <img className="w-10 h-10 rounded-full mr-4" src="/img/jonathan.jpg" alt="Avatar of Jonathan Reinink"> */}
             </div>
           </div>

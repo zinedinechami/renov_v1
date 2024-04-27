@@ -6,12 +6,14 @@ import Services from "@/pages/services";
 import Contact from "@/pages/contact";
 import Footer from "@/components/footer";
 
+// todo: add animations on hover and appeareance to components of page
+
 export default function Home() {
   return (
     <>
       <body>
         <Header />
-        <main className="">
+        <main>
           <LandingPage />
           <About />
           <Services />
