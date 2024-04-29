@@ -11,7 +11,7 @@ export default function LandingPage() {
             Rénovez votre bien <span className="text-emerald-400">à neuf</span>{" "}
           </h1>
 
-          <ul className="text-zinc-900 font-bold">
+          <ul className="text-zinc-800 font-bold">
             <li>Sur Paris, Ile de France</li>
             <li>Joiniable 7 jours sur 7 </li>
           </ul>

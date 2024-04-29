@@ -7,6 +7,8 @@ import img1 from "../assets/fake_img1 (1).jpg";
 import img2 from "../assets/fake_img1 (2).jpg";
 import img3 from "../assets/fake_img1 (3).jpg";
 
+// look at carrousel improvements, counter maybe?
+
 export function Carousel() {
   const [emblaRef] = useEmblaCarousel({ loop: true }, [
     Autoplay({ delay: 3500 }),

@@ -4,6 +4,7 @@ import Image from "next/image";
 
 // todo: add link to landing page to logo
 // social hover anim, opacity goes down
+// remove bar under renov?
 
 export default function Header() {
   return (

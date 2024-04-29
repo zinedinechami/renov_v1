@@ -1,29 +1,35 @@
-// todo: add a hand shake stock photo on the left side
-// Make height bigger
-// make a black email button
-// make a positive reinforcing message
-// make card alot higher with image on the right
+import contact_photo from "../assets/nathan-dumlao-kLmt1mpGJVg-unsplash.jpg";
+import Image from "next/image";
+
+// todo: add call and email feature for buttons
 
 export default function Contact() {
   return (
     <>
-      <section id="contact" className="bg-zinc-0 flex pt-18 lg:px-48 px-4 ">
-        <div className="mx-auto  h-64   lg:flex">
-          {/* <div className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style="background-image: url('/img/card-left.jpg')" title="Woman holding a mug">
-  </div> */}
-          <div className=" border-zinc-500   bg-zinc-900 rounded-xl  p-4 flex flex-col justify-between shadow-lg">
-            <div className="mb-8">
-              <div className="text-zinc-50 font-bold text-xl mb-2">
-                New Text
+      <section id="contact" className="bg-zinc-50 flex pt-18 lg:px-48 px-4 ">
+        <div className="mx-auto  h-96   lg:flex">
+          <div className=" border-zinc-500   bg-zinc-900 rounded-xl   flex flex-row justify-between shadow-lg">
+            <div className="h-full  w-full rounded-xl p-0  overflow-hidden">
+              <Image src={contact_photo} width={300} alt="image" />
+            </div>
+            <div className="mb-8 text-right flex-col pt-8 pr-8 w-full h-full">
+              <div className="text-zinc-50 bebas-neue-regular text-5xl   font-bold  mb-2">
+                Contactez Nous
               </div>
               <p className="text-zinc-50 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                exercitationem praesentium nihil.
+                Appelez nous pour nous parler de votre projet,nous serrons ravi
+                de vous aider !
               </p>
-            </div>
-            <div className="flex items-center">
-              {/* <img className="w-10 h-10 rounded-full mr-4" src="/img/jonathan.jpg" alt="Avatar of Jonathan Reinink"> */}
+
+              <button className="bebas-neue-regular  tracking-wider text-2xl bg-emerald-400 hover:bg-emerald-500 text-white my-6 py-2 px-8 border border-emerald-500 rounded-lg shadow-lg">
+                06 15 57 74 18
+              </button>
+              <p className="text-zinc-50 text-base">
+                NHésistez pas a poser nimporte quel question
+              </p>
+              <button className="bebas-neue-regular tracking-wider text-2xl bg-emerald-400 hover:bg-emerald-500 text-white my-6 py-2 px-8 border border-emerald-500 rounded-lg shadow-lg">
+                g.bouillet@hotmail.com
+              </button>
             </div>
           </div>
         </div>
