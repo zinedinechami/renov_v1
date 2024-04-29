@@ -17,16 +17,15 @@ export default function Contact() {
               <div className="text-zinc-50 bebas-neue-regular text-5xl   font-bold  mb-2">
                 Contactez Nous
               </div>
-              <p className="text-zinc-50 text-base">
-                Appelez nous pour nous parler de votre projet,nous serrons ravi
-                de vous aider !
+              <p className="text-zinc-50 text-base font-bold">
+                Parlez nous de votre projet, nous serrons ravi de vous aider !
               </p>
 
               <button className=" transition-colors bebas-neue-regular  tracking-wider text-2xl bg-emerald-400 hover:bg-emerald-500 text-white my-6 py-2 px-8 border border-emerald-500 rounded-lg shadow-lg">
                 06 15 57 74 18
               </button>
-              <p className="text-zinc-50 text-base">
-                NHésistez pas a poser nimporte quel question
+              <p className="text-zinc-50 text-base font-bold">
+                N hésistez pas a poser nimporte quel question !
               </p>
               <button className=" transition-colors bebas-neue-regular tracking-wider text-2xl bg-emerald-400 hover:bg-emerald-500 text-white my-6 py-2 px-8 border border-emerald-500 rounded-lg shadow-lg">
                 g.bouillet@hotmail.com
