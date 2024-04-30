@@ -9,7 +9,7 @@ import Footer from "@/components/footer";
 export default function Home() {
   return (
     <>
-      <body className="bg-zinc-50">
+      <body>
         <Header />
         <main>
           <LandingPage />

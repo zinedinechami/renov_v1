@@ -5,13 +5,23 @@ import Image from "next/image";
 export default function Header() {
   return (
     <>
-      <nav className="  top-0 w-full bg-zinc-50  h-28   z-10 ">
-        <a href="#home">
-          <h1 className="bebas-neue-regular pl-28 sm:text-4xl text-xl pt-10 flex-col text-zinc-900 ">
-            RÉNOV À 9
-          </h1>
-        </a>
-        <div className=" absolute top-10 right-28">
+      <nav className="sticky  z-50 top-8  w-10/12 mx-auto bg-white  h-20 shadow  transition-shadow rounded-xl  border  ">
+        <h1 className="bebas-neue-regular  sm:text-4xl text-2xl pt-5 pl-12 flex-col text-zinc-900 ">
+          RÉN
+          <span className="decoration-zinc-900 underline underline-offset-8 decoration-1">
+            OV
+          </span>{" "}
+          À 9
+        </h1>
+        {/* <div className="absolute top-0 text-center">
+          <ul className="flex">
+            <li>Acceuil</li>
+            <li>A Propos</li>
+            <li>Nos Services</li>
+          </ul>
+        </div> */}
+
+        <div className=" absolute top-4 right-4">
           <ul className="flex">
             <li className="pt-2 pr-4">
               <a className="hover:opacity-60 transition-opacity" href="">

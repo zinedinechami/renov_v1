@@ -6,7 +6,7 @@ import example from "../assets/fake_img1 (1).jpg";
 export default function Card() {
   return (
     <>
-      <div className="max-w-sm bg-zinc-0  rounded-xl overflow-hidden border m-10 cursor-pointer hover:shadow-lg transition-shadow">
+      <div className="max-w-sm bg-white  rounded-xl overflow-hidden border m-10 cursor-pointer hover:shadow-lg transition-shadow">
         <Image src={example} width={500} height={200} alt="ex" />
         <div className="px-6 py-4">
           <div className="bebas-neue-regular text-zinc-900  text-xl mb-2">
