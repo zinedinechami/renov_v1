@@ -9,7 +9,7 @@ export default function About() {
           par gérard bouillet
         </h1>
         <div className="flex md:flex-row flex-col">
-          <p className="md:w-6/12 pt-5 mt-12 text-xl  ">
+          <p className="md:w-6/12 pt-5 mt-10 text-xl  ">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
             rerum illo ducimus ex quos veniam explicabo doloribus beatae ut
             dolore iusto aperiam ipsa animi nesciunt commodi minus, eligendi
