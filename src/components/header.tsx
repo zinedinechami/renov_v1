@@ -6,20 +6,34 @@ export default function Header() {
   return (
     <>
       <nav className="sticky  z-50 top-8  w-10/12 mx-auto bg-white  h-20 shadow  transition-shadow rounded-xl  border  ">
-        <h1 className="bebas-neue-regular  sm:text-4xl text-2xl pt-5 pl-12 flex-col text-zinc-900 ">
-          RÉN
-          <span className="decoration-zinc-900 underline underline-offset-8 decoration-1">
-            OV
-          </span>{" "}
-          À 9
-        </h1>
-        {/* <div className="absolute top-0 text-center">
-          <ul className="flex">
-            <li>Acceuil</li>
-            <li>A Propos</li>
-            <li>Nos Services</li>
+        <div className="flex">
+          <h1 className="bebas-neue-regular  sm:text-4xl text-2xl pt-5 pl-12 flex-col text-zinc-900 ">
+            RÉN
+            <span className="decoration-zinc-900 underline underline-offset-8 decoration-1">
+              OV
+            </span>{" "}
+            À 9
+          </h1>
+
+          <ul className="lg:flex mr-auto  ml-60 pt-7 hidden">
+            <a className="hover:text-zinc-600 transition-color" href="">
+              <li className="pr-8 hover:text-zinc-700 transition-color">
+                Acceuil
+              </li>
+            </a>
+            <a className="hover:text-zinc-600 transition-color" href="">
+              <li className="pr-8 hover:text-zinc-700 transition-color">
+                À Propos
+              </li>
+            </a>
+            <a className="hover:text-zinc-600 transition-color" href="">
+              <li className="pr-8 ">Nos Services</li>
+            </a>
+            <a className="hover:text-zinc-600 transition-color" href="">
+              <li className="pr-8 ">Avis</li>
+            </a>
           </ul>
-        </div> */}
+        </div>
 
         <div className=" absolute top-4 right-4">
           <ul className="flex">

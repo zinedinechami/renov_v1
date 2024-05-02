@@ -13,7 +13,7 @@ export default function Contact() {
       >
         <div className="mx-auto  h-96   lg:flex">
           <div className=" border-zinc-500   bg-zinc-900 rounded-xl   flex flex-row justify-between shadow-xl">
-            <div className="h-full  w-full rounded-xl p-0  overflow-hidden">
+            <div className="md:flex hidden h-full  w-full rounded-xl p-0  overflow-hidden">
               <Image src={contact_photo} width={300} alt="image" />
             </div>
             <div className="mb-8 text-right flex-col pt-8 pr-8 w-full h-full">

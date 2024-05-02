@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <body>
         <Header />
-        <main>
+        <main className="z-0">
           <LandingPage />
           <About />
           <Services />
