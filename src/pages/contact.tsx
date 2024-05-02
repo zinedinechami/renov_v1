@@ -1,18 +1,15 @@
 import contact_photo from "../assets/nathan-dumlao-kLmt1mpGJVg-unsplash.jpg";
 import Image from "next/image";
 
-// todo: add call and email feature for buttons
-// make img div display none on mobile version
-
 export default function Contact() {
   return (
     <>
       <section
         id="contact"
-        className=" flex pt-24 pb-24 lg:px-48 px-4 bg-zinc-50"
+        className=" flex pt-24 pb-24 lg:px-48 px-4 bg-white"
       >
         <div className="mx-auto  h-96   lg:flex">
-          <div className=" border-zinc-500   bg-zinc-900 rounded-xl   flex flex-row justify-between shadow-xl">
+          <div className=" border   bg-zinc-900 rounded-xl   flex flex-row justify-between shadow-2xl">
             <div className="md:flex hidden h-full  w-full rounded-xl p-0  overflow-hidden">
               <Image src={contact_photo} width={300} alt="image" />
             </div>
@@ -23,16 +20,20 @@ export default function Contact() {
               <p className="text-zinc-50 text-base ">
                 Parlez nous de votre projet, nous serrons ravi de vous aider !
               </p>
+              <a href="tel:0619513185">
+                <button className=" transition-colors bebas-neue-regular  tracking-wider text-2xl bg-blue-600 hover:bg-blue-700 text-white my-6 py-2 px-8 border border-blue-500 rounded-lg shadow-lg">
+                  06 15 57 74 18
+                </button>
+              </a>
 
-              <button className=" transition-colors bebas-neue-regular  tracking-wider text-2xl bg-blue-600 hover:bg-blue-700 text-white my-6 py-2 px-8 border border-blue-500 rounded-lg shadow-lg">
-                06 15 57 74 18
-              </button>
               <p className="text-zinc-50 text-base ">
                 N hésistez pas a poser nimporte quel question !
               </p>
-              <button className=" transition-colors bebas-neue-regular tracking-wider text-2xl bg-blue-600 hover:bg-blue-700 text-white my-6 py-2 px-8 border border-blue-500 rounded-lg shadow-lg">
-                g.bouillet@hotmail.com
-              </button>
+              <a href="mailto:g.bouillet@hotmail.com">
+                <button className=" transition-colors bebas-neue-regular tracking-wider text-2xl bg-blue-600 hover:bg-blue-700 text-white my-6 py-2 px-8 border border-blue-500 rounded-lg shadow-lg">
+                  g.bouillet@hotmail.com
+                </button>
+              </a>
             </div>
           </div>
         </div>

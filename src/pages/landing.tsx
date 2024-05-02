@@ -5,8 +5,8 @@ export default function LandingPage() {
   return (
     <>
       <section
-        id="home"
-        className=" h-full w-full  [background:radial-gradient(125%_125%_at_50%_10%,#fafafa_55%,#1d4ed8_100%)] "
+        id="acceuil"
+        className=" h-full w-full  [background:radial-gradient(125%_125%_at_50%_10%,#ffffff_55%,#1d4ed8_100%)] "
       >
         <div className="flex flex-col md:flex-row md:pt-20 pt-12 pb-24 lg:px-44 px-4">
           <div className="sm:w-3/5 mx-auto  pt-12">

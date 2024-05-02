@@ -4,7 +4,10 @@ import Image from "next/image";
 export default function About() {
   return (
     <>
-      <section className=" bg-zinc-900 text-white lg:px-48 px-4 pt-28  pb-32 ">
+      <section
+        className=" bg-zinc-900 text-white lg:px-48 px-4 pt-28  pb-32 "
+        id="avis"
+      >
         <h1 className=" bebas-neue-regular font-bold text-5xl  text-zinc-50">
           par gérard bouillet
         </h1>

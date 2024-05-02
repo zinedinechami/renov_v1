@@ -5,9 +5,9 @@ import Image from "next/image";
 export default function Header() {
   return (
     <>
-      <nav className="sticky  z-50 top-8  w-10/12 mx-auto bg-white  h-20 shadow  transition-shadow rounded-xl  border  ">
+      <nav className="sticky z-50 top-8  w-10/12 mx-auto bg-zinc-50  h-20 shadow  transition-shadow rounded-xl  border  ">
         <div className="flex">
-          <h1 className="bebas-neue-regular  sm:text-4xl text-2xl pt-5 pl-12 flex-col text-zinc-900 ">
+          <h1 className="bebas-neue-regular  sm:text-3xl text-2xl pt-5 pl-12 flex-col text-zinc-900 ">
             RÉN
             <span className="decoration-zinc-900 underline underline-offset-8 decoration-1">
               OV
@@ -16,17 +16,20 @@ export default function Header() {
           </h1>
 
           <ul className="lg:flex mr-auto  ml-60 pt-7 hidden">
-            <a className="hover:text-zinc-600 transition-color" href="">
+            <a className="hover:text-zinc-600 transition-color" href="#acceuil">
               <li className="pr-8 hover:text-zinc-700 transition-color">
                 Acceuil
               </li>
             </a>
-            <a className="hover:text-zinc-600 transition-color" href="">
+            <a className="hover:text-zinc-600 transition-color" href="#avis">
               <li className="pr-8 hover:text-zinc-700 transition-color">
                 À Propos
               </li>
             </a>
-            <a className="hover:text-zinc-600 transition-color" href="">
+            <a
+              className="hover:text-zinc-600 transition-color"
+              href="#services"
+            >
               <li className="pr-8 ">Nos Services</li>
             </a>
             <a className="hover:text-zinc-600 transition-color" href="">
