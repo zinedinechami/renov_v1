@@ -1,5 +1,7 @@
 import Card from "@/components/card";
 
+// todo: add stoc images and descriptions
+
 export default function Services() {
   return (
     <>
@@ -11,14 +13,18 @@ export default function Services() {
           Nos Services proposées
         </h1>
         <div className="flex flex-col md:flex-row">
-          <Card image="" title="Peinture" text="La peinture c'est being" />
-          <Card image="" title="Peinture" text="La peinture c'est being" />
+          <Card
+            image=""
+            title="Montage de Cuisine"
+            text="La peinture c'est being"
+          />
+          <Card image="" title="Salle de bain" text="La peinture c'est being" />
           <Card image="" title="Peinture" text="La peinture c'est being" />
         </div>
         <div className="flex flex-col md:flex-row">
-          <Card image="" title="Peinture" text="La peinture c'est being" />
-          <Card image="" title="Peinture" text="La peinture c'est being" />
-          <Card image="" title="Peinture" text="La peinture c'est being" />
+          <Card image="" title="Plomberie" text="La peinture c'est being" />
+          <Card image="" title="Electicité" text="La peinture c'est being" />
+          <Card image="" title="Maconerie" text="La peinture c'est being" />
         </div>
       </section>
     </>

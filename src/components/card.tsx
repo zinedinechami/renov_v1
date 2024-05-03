@@ -10,7 +10,7 @@ interface Props {
 export default function Card({ image, title, text }: Props) {
   return (
     <>
-      <div className="max-w-sm bg-zinc-50  rounded-xl overflow-hidden border m-10 cursor-pointer hover:shadow-lg transition-shadow">
+      <div className="max-w-sm bg-white  rounded-md overflow-hidden border m-10 cursor-pointer shadow transition-shadow">
         <Image src={image} width={500} height={200} alt="ex" />
         <div className="px-6 py-4">
           <div className="bebas-neue-regular text-zinc-900  text-xl mb-2">
