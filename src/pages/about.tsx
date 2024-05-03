@@ -5,8 +5,8 @@ export default function About() {
   return (
     <>
       <section
-        className=" bg-zinc-900 text-white lg:pl-52 pr-32 px-4 pt-28  pb-32 "
-        id="avis"
+        className=" bg-zinc-900 text-white lg:pl-52 pr-32 px-4 pt-32  pb-40 "
+        id="about"
       >
         <h1 className=" bebas-neue-regular font-bold text-5xl  text-zinc-50">
           par gérard bouillet
@@ -21,7 +21,7 @@ export default function About() {
             delectus, deleniti similique maiores omnis beatae laborum animi odio
             a repellat quo adipisci. Iure, debitis.
           </p>
-          <div className=" mx-auto rounded-full image-wrapper md:mr-28 mt-10">
+          <div className=" mx-auto rounded image-wrapper md:mr-28 mt-6">
             <Image src={img_ex} width={300} height={300} alt="person" />
           </div>
         </div>

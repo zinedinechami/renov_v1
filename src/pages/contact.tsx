@@ -1,13 +1,12 @@
 import contact_photo from "../assets/nathan-dumlao-kLmt1mpGJVg-unsplash.jpg";
 import Image from "next/image";
 
+// redesign this section
+
 export default function Contact() {
   return (
     <>
-      <section
-        id="contact"
-        className=" flex pt-24 pb-24 lg:px-48 px-4 bg-white"
-      >
+      <section id="contact" className=" flex pt-24 pb-24 lg:px-48 px-4 ">
         <div className="mx-auto  h-96   lg:flex">
           <div className=" border   bg-zinc-900 rounded-xl   flex flex-row justify-between shadow-2xl">
             <div className="md:flex hidden h-full  w-full rounded-xl p-0  overflow-hidden">

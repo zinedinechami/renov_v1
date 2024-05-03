@@ -3,18 +3,21 @@ import Header from "@/components/header";
 import LandingPage from "@/pages/landing";
 import About from "@/pages/about";
 import Services from "@/pages/services";
+import Avis from "@/pages/avis";
 import Contact from "@/pages/contact";
 import Footer from "@/components/footer";
 
 export default function Home() {
   return (
     <>
-      <body>
+      <body className="bg-zinc-100 ">
         <Header />
-        <main className="z-0">
+
+        <main>
           <LandingPage />
           <About />
           <Services />
+          <Avis />
           <Contact />
         </main>
         <Footer />

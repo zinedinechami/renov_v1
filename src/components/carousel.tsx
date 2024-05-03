@@ -17,7 +17,7 @@ export function Carousel() {
 
   return (
     <div
-      className="embla bg-zinc-50 mt-12 sm:h-80  max-w-lg  rounded-md   shadow-lg cursor-pointer	"
+      className="embla bg-zinc-50 mt-12 sm:h-80  max-w-lg  rounded-md   shadow-xl cursor-pointer	"
       ref={emblaRef}
     >
       <div className="embla__container h-full  ">
