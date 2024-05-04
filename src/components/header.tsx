@@ -8,18 +8,14 @@ import Image from "next/image";
 export default function Header() {
   return (
     <>
-      <nav className="sticky z-50 top-8  w-10/12 mx-auto bg-zinc-50  h-20 shadow   rounded-md  border  ">
+      <nav className="sticky z-50 top-5  w-11/12 mx-auto bg-zinc-50  h-20 shadow   rounded-md  border border-zinc-100  ">
         <div className="flex">
           {/* <Image src={logo} width={90} height={100} quality={100} alt="logo" /> */}
           <h1 className="bebas-neue-regular  sm:text-4xl text-2xl pt-5 pl-12 flex-col text-zinc-900 ">
-            RÉN
-            <span className="decoration-zinc-900 underline underline-offset-8 decoration-1">
-              OV
-            </span>{" "}
-            À 9
+            RÉNOV À 9
           </h1>
 
-          <ul className="bebas-neue-regular lg:flex mr-auto  ml-64 pt-7 hidden text-lg">
+          <ul className="bebas-neue-regular lg:flex mr-auto  ml-72 pt-7 hidden text-lg">
             <a className="hover:text-zinc-600 transition-color" href="#acceuil">
               <li className="pr-8 hover:text-zinc-700 transition-color">
                 Acceuil
