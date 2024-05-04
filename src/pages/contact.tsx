@@ -14,9 +14,7 @@ export default function Contact() {
             Contactez Nous
           </h1>
           <div className=" border w-full  bg-zinc-50 rounded-md  h-72 flex flex-row justify-between shadow-2xl">
-            <div className="md:flex hidden h-full  w-full rounded-md p-0  overflow-hidden">
-              <Image src={contact_photo} width={300} alt="image" />
-            </div>
+            <div className="md:flex hidden h-full  w-full rounded-md p-0  overflow-hidden"></div>
             <div className="mb-8 text-center flex-col pt-6 w-full h-full">
               <p className="text-zinc-900 text-base ">
                 Parlez nous de votre projet, nous serrons ravi de vous aider !

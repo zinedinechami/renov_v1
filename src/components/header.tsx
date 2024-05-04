@@ -15,7 +15,7 @@ export default function Header() {
             RÉNOV À 9
           </h1>
 
-          <ul className="bebas-neue-regular lg:flex mr-auto  ml-72 pt-7 hidden text-lg">
+          <ul className="text-base lg:flex mr-auto  ml-72 pt-7 hidden ">
             <a className="hover:text-zinc-600 transition-color" href="#acceuil">
               <li className="pr-8 hover:text-zinc-700 transition-color">
                 Acceuil
@@ -51,7 +51,7 @@ export default function Header() {
               </a>
             </li>
             <a href="#contact">
-              <button className="  flex bebas-neue-regular  bg-zinc-900 hover:bg-zinc-700  text-white  py-2 px-4 mr-4   rounded-full shadow-md transition-colors">
+              <button className="  flex  text-sm bg-zinc-900 hover:bg-zinc-700  text-white  py-2 px-4 mr-4   rounded-lg shadow-md transition-colors">
                 Contactez Nous
               </button>
             </a>

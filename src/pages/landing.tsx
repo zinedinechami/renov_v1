@@ -6,7 +6,7 @@ export default function LandingPage() {
     <>
       <section
         id="acceuil"
-        className=" h-full w-full  [background:radial-gradient(125%_125%_at_45%_10%,#f4f4f5_50%,#1d4ed8_100%)] "
+        className=" h-full w-full  [background:radial-gradient(125%_125%_at_50%_10%,#f4f4f5_50%,#1d4ed8_100%)] "
       >
         <div className="flex flex-col md:flex-row md:pt-26 pt-20 pb-28 lg:px-44 px-4">
           <div className="sm:w-3/5 mx-auto  pt-12">
@@ -22,7 +22,7 @@ export default function LandingPage() {
               <li>Joiniable 7 jours sur 7 </li>
             </ul>
             <a href="#contact">
-              <button className="transition-colors bebas-neue-regular  tracking-wider text-xl bg-blue-600 hover:bg-blue-500 text-white mt-6 py-2  px-9  rounded-full shadow-lg">
+              <button className="transition-colors  font-bold  text-base bg-blue-600 hover:bg-blue-500 border border-blue-700 text-white mt-6 py-2  px-9  rounded-lg shadow-lg">
                 Je veux un devis gratuit
               </button>
             </a>
