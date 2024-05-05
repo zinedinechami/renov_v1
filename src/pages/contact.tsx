@@ -8,28 +8,32 @@ import Image from "next/image";
 export default function Contact() {
   return (
     <>
-      <section id="contact" className=" flex pt-24 pb-24 lg:px-32 px-4 ">
-        <div className="mx-auto     ">
-          <h1 className="text-zinc-900 bebas-neue-regular text-5xl text-center  font-bold  mb-12">
+      <section id="contact" className=" flex pt-24 pb-32 lg:px-32 px-4 ">
+        <div className="    mx-auto ">
+          <h1 className="text-zinc-900 bebas-neue-regular text-5xl text-center  font-bold  mb-14">
             Contactez Nous
           </h1>
-          <div className=" border w-full  bg-zinc-50 rounded-md  h-72 flex flex-row justify-between shadow-2xl">
-            <div className="md:flex hidden h-full  w-full rounded-md p-0  overflow-hidden"></div>
-            <div className="mb-8 text-center flex-col pt-6 w-full h-full">
-              <p className="text-zinc-900 text-base ">
-                Parlez nous de votre projet, nous serrons ravi de vous aider !
-              </p>
-              <a href="tel:0619513185">
-                <button className=" transition-colors bebas-neue-regular  tracking-wide text-2xl bg-blue-600 hover:bg-blue-700 text-white my-6 py-2 px-8 border border-blue-500 rounded-full shadow-lg">
-                  06 15 57 74 18
-                </button>
-              </a>
-
-              <p className="text-zinc-900 text-base ">
+          <div className="flex px-8">
+            <div className="bg-white border shadow rounded-lg p-8 mr-8">
+              <div className="  flex-col  w-full h-full">
+                <h1 className="text-3xl font-bold">Faisons un devis</h1>
+                <p className="text-zinc-900 text-base pt-4">
+                  Parlez nous de votre projet, nous serrons ravi de vous aider !
+                </p>
+                <a href="tel:0619513185">
+                  <button className=" transition-colors  font-bold  text-base bg-blue-600 hover:bg-blue-700 text-white my-6 py-2 px-8 border border-blue-700 rounded-lg shadow-lg">
+                    06 15 57 74 18
+                  </button>
+                </a>
+              </div>
+            </div>
+            <div className="bg-white rounded-lg p-8 border shadow">
+              <h1 className="text-3xl font-bold">Pour toute aide</h1>
+              <p className="text-zinc-900 text-base pt-4">
                 N hésistez pas a poser nimporte quel question !
               </p>
               <a href="mailto:g.bouillet@hotmail.com">
-                <button className=" transition-colors bebas-neue-regular tracking-wide text-2xl bg-zinc-900 hover:bg-zinc-700 text-white my-6 py-2 px-8 border  rounded-full shadow-lg">
+                <button className=" transition-colors   text-base bg-zinc-900 hover:bg-zinc-700 text-white my-6 py-2 px-10 border  rounded-lg shadow-lg">
                   g.bouillet@hotmail.com
                 </button>
               </a>

@@ -21,7 +21,7 @@ export default function Header() {
                 Acceuil
               </li>
             </a>
-            <a className="hover:text-zinc-600 transition-color" href="#avis">
+            <a className="hover:text-zinc-600 transition-color" href="#about">
               <li className="pr-10 hover:text-zinc-700 transition-color">
                 À Propos
               </li>
@@ -30,10 +30,10 @@ export default function Header() {
               className="hover:text-zinc-600 transition-color"
               href="#services"
             >
-              <li className="pr-10 ">Nos Services</li>
+              <li className="pr-10 ">Services</li>
             </a>
-            <a className="hover:text-zinc-600 transition-color" href="">
-              <li className="pr-10 ">Avis</li>
+            <a className="hover:text-zinc-600 transition-color" href="#avis">
+              <li className="pr-10 ">Temoignages</li>
             </a>
           </ul>
         </div>

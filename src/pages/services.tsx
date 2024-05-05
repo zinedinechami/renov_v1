@@ -5,7 +5,7 @@ import Card from "@/components/card";
 export default function Services() {
   return (
     <>
-      <section className="pt-32 pb-32 4 lg:px-48 px-4  " id="services">
+      <section id="services" className="pt-32 pb-44 4 lg:px-48 px-4  ">
         <h1 className="text-center bebas-neue-regular font-bold text-5xl pb-12  text-zinc-900">
           Nos Services proposées
         </h1>

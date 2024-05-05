@@ -5,8 +5,8 @@ export default function About() {
   return (
     <>
       <section
-        className=" bg-zinc-900 text-white lg:pl-52 pr-32 px-4 pt-32  pb-40 "
         id="about"
+        className=" bg-zinc-900 text-white lg:pl-52 pr-32 px-4 pt-32  pb-40 "
       >
         <h1 className=" bebas-neue-regular font-bold text-5xl  text-zinc-50">
           par gérard bouillet

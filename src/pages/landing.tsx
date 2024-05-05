@@ -22,7 +22,7 @@ export default function LandingPage() {
               <li>Joiniable 7 jours sur 7 </li>
             </ul>
             <a href="#contact">
-              <button className="transition-colors  font-bold  text-base bg-blue-600 hover:bg-blue-500 border border-blue-700 text-white mt-6 py-2  px-9  rounded-lg shadow-lg">
+              <button className="transition-colors  font-bold  text-base bg-blue-600 hover:bg-blue-500 border border-blue-600 text-white mt-6 py-2  px-9  rounded-lg shadow-lg">
                 Je veux un devis gratuit
               </button>
             </a>
