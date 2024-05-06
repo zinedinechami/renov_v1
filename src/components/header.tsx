@@ -8,7 +8,7 @@ import Image from "next/image";
 export default function Header() {
   return (
     <>
-      <nav className="sticky z-50 top-5  w-11/12 mx-auto bg-zinc-50  h-20 shadow   rounded-md  border border-zinc-100  ">
+      <nav className="sticky z-50 top-4  w-11/12 mx-auto bg-zinc-50  h-20 shadow   rounded-md  border border-zinc-100  ">
         <div className="flex">
           {/* <Image src={logo} width={90} height={100} quality={100} alt="logo" /> */}
           <h1 className="bebas-neue-regular  sm:text-4xl text-2xl pt-5 pl-12 flex-col text-zinc-900 ">
@@ -51,7 +51,7 @@ export default function Header() {
               </a>
             </li>
             <a href="#contact">
-              <button className="  flex  text-sm bg-zinc-900 hover:bg-zinc-700  text-white  py-2 px-4 mr-4   rounded-lg shadow-md transition-colors">
+              <button className="  flex font-bold text-sm bg-zinc-950 hover:bg-zinc-700  text-white  py-2 px-4 mr-4   rounded-full shadow-md transition-colors">
                 Contactez Nous
               </button>
             </a>
