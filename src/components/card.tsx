@@ -9,20 +9,18 @@ interface Props {
 export default function Card({ image, title }: Props) {
   return (
     <>
-      <div className=" bg-zinc-50 h-72 rounded-md overflow-hidden border m-2  shadow transition-shadow">
-        <div className="h-52 overflow-hidden">
+      <div className=" overflow-hidden  mx-auto mb-20  w-80 rounded-md ">
+        <div className="rounded-md opacity-95">
           <Image
             src={image}
-            width={500}
-            height={250}
+            width={600}
+            height={600}
             style={{ objectFit: "fill" }}
-            alt="ex"
+            alt={title}
           />
         </div>
-        <div className="px-6 py-4 h-12">
-          <div className=" text-zinc-900 font-bold text-xl ">{title}</div>
-        </div>
       </div>
+      {/* <h1 className=" text-zinc-900 font-bold text-xl flex">{title}</h1> */}
     </>
   );
 }

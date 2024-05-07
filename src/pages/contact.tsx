@@ -24,7 +24,7 @@ export default function Contact() {
                   Parlez nous de votre projet, nous serrons ravi de vous aider !
                 </p>
                 <a href="tel:0619513185">
-                  <button className=" transition-colors  font-bold  text-base bg-blue-600 hover:bg-blue-700 text-white my-6 py-2 px-8 border border-blue-700 rounded-full shadow-lg">
+                  <button className=" transition-colors  font-bold  text-base bg-blue-600 hover:bg-blue-500 text-white my-6 py-2 px-8 border border-blue-600 rounded-full shadow-lg">
                     06 15 57 74 18
                   </button>
                 </a>
@@ -36,7 +36,7 @@ export default function Contact() {
                 N hésistez pas a poser nimporte quel question !
               </p>
               <a href="mailto:g.bouillet@hotmail.com">
-                <button className=" transition-colors   text-base bg-zinc-950 hover:bg-zinc-800 text-white my-6 py-2 px-10 border  rounded-full shadow-lg">
+                <button className=" transition-colors  font-bold text-base bg-zinc-950 hover:bg-zinc-800 text-white my-6 py-2 px-10 border  rounded-full shadow-lg">
                   g.bouillet@hotmail.com
                 </button>
               </a>

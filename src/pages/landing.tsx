@@ -1,6 +1,8 @@
 import { Carousel } from "@/components/carousel";
 import Header from "@/components/header";
 
+// add an arrow to blue btn
+
 export default function LandingPage() {
   return (
     <>
@@ -22,8 +24,27 @@ export default function LandingPage() {
               <li>Joiniable 7 jours sur 7 </li>
             </ul>
             <a href="#contact">
-              <button className="transition-colors  font-bold  text-base bg-blue-600 hover:bg-blue-500 border border-blue-600 text-white mt-6 py-2  px-8  rounded-full shadow-lg">
-                Je veux un Devis Gratuit
+              <button className="transition-colors flex font-semibold  text-base bg-blue-600 hover:bg-blue-500 border border-blue-600 text-white mt-6 py-2  px-7  rounded-full shadow-lg">
+                Je veux un Devis gratuit{" "}
+                <span>
+                  <svg
+                    className="w-4 h-6 ml-2 text-gray-800 dark:text-white"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="m9 5 7 7-7 7"
+                    />
+                  </svg>
+                </span>
               </button>
             </a>
           </div>
