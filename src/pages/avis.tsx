@@ -1,6 +1,4 @@
-// todo: finish cards carrousel
-
-// add embla carrousel with cards inside
+import AvisCard from "@/components/avis_card";
 
 export default function Avis() {
   return (
@@ -13,6 +11,11 @@ export default function Avis() {
         <h1 className=" bebas-neue-regular font-bold text-5xl  text-zinc-50 pb-12">
           Des clients ravis
         </h1>
+        <div className="flex p-6">
+          <AvisCard />
+          <AvisCard />
+          <AvisCard />
+        </div>
       </section>
     </>
   );

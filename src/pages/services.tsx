@@ -1,4 +1,4 @@
-import Card from "@/components/card";
+import Card from "@/components/service_card";
 import bain from "../assets/bain.jpg";
 import cuisine from "../assets/cuisine.jpg";
 import peinture from "../assets/peinture.jpg";

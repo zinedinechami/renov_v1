@@ -14,9 +14,9 @@ export default function Contact() {
             Contactez Nous
           </h1>
           <h1 className="text-zinc-950 bebas-neue-regular text-5xl text-center  font-bold  mb-14">
-            Contactez Nous
+            Rejoinez nous
           </h1>
-          <div className="flex px-8">
+          <div className="flex ">
             <div className="bg-white border shadow rounded-lg p-8 mr-8">
               <div className="  flex-col  w-full h-full">
                 <h1 className="text-3xl font-bold">Faisons un devis</h1>
