@@ -15,17 +15,17 @@ export default function LandingPage() {
             <h1 className="bebas-neue-regular text-7xl font-bold text-zinc-950 ">
               Rénovez votre bien <span className="text-blue-600">à neuf</span>{" "}
             </h1>
-            <p className="text-zinc-700">
+            <p className="text-zinc-500">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid,
               repellendus perferendis!
             </p>
-            <ul className="text-zinc-700 text-xs  pt-2">
+            <ul className="text-zinc-500 text-xs  pt-2">
               <li>Sur Paris, Ile de France</li>
               <li>Joiniable 7 jours sur 7 </li>
             </ul>
             <a href="#contact">
-              <button className="transition-colors flex font-semibold  text-base bg-blue-600 hover:bg-blue-500 border border-blue-600 text-white mt-6 py-2  px-7  rounded-full shadow-lg">
-                Je veux un Devis gratuit{" "}
+              <button className=" flex font-semibold  text-base bg-blue-600 hover:bg-blue-500 border border-blue-600 text-white mt-6 py-2  px-7  rounded-full shadow-lg hover:scale-95 transition">
+                Je veux un devis gratuit{" "}
                 <span>
                   <svg
                     className="w-4 h-6 ml-2 text-gray-800 dark:text-white"

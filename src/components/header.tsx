@@ -11,28 +11,29 @@ export default function Header() {
       <nav className="sticky z-50 top-4  w-11/12 mx-auto bg-zinc-50  h-20 shadow   rounded-md  border border-zinc-100   ">
         <div className="flex">
           {/* <Image src={logo} width={90} height={100} quality={100} alt="logo" /> */}
-          <h1 className="bebas-neue-regular  sm:text-4xl text-2xl pt-5 pl-12 flex-col text-zinc-900 ">
-            RÉNOV À 9
-          </h1>
+          <a href="#acceuil">
+            <h1 className="bebas-neue-regular  sm:text-4xl text-2xl pt-5 pl-12 flex-col text-zinc-950 ">
+              RÉNOV À 9
+            </h1>
+          </a>
 
-          <ul className="text-base lg:flex mr-auto  ml-72 pt-7 hidden ">
-            <a className="hover:text-zinc-600 transition-color" href="#acceuil">
-              <li className="pr-8 hover:text-zinc-700 transition-color">
-                Acceuil
-              </li>
-            </a>
-            <a className="hover:text-zinc-600 transition-color" href="#about">
-              <li className="pr-10 hover:text-zinc-700 transition-color">
-                À Propos
-              </li>
+          <ul className="text lg:flex mr-auto  ml-72  hidden pt-7">
+            <a
+              className=" hover:text-zinc-600 transition-color  hover:-translate-y-1 transition "
+              href="#about"
+            >
+              <li className="pr-10   ">À Propos</li>
             </a>
             <a
-              className="hover:text-zinc-600 transition-color"
+              className="hover:text-zinc-600 transition-color hover:-translate-y-1 transition"
               href="#services"
             >
               <li className="pr-10 ">Services</li>
             </a>
-            <a className="hover:text-zinc-600 transition-color" href="#avis">
+            <a
+              className="hover:text-zinc-600 transition-color hover:-translate-y-1 transition"
+              href="#avis"
+            >
               <li className="pr-10 ">Temoignages</li>
             </a>
           </ul>
@@ -51,7 +52,7 @@ export default function Header() {
               </a>
             </li>
             <a href="#contact">
-              <button className="  flex font-semibold text-sm bg-zinc-950 hover:bg-zinc-800  text-white  py-2 px-4 mr-4   rounded-full shadow-md transition-colors">
+              <button className="  flex font-semibold text-sm bg-zinc-950 hover:bg-zinc-700 hover:scale-95 transition  text-white  py-2 px-4 mr-4   rounded-full shadow-md ">
                 Contactez Nous
               </button>
             </a>
