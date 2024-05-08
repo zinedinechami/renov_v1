@@ -6,14 +6,14 @@ export default function About() {
     <>
       <section
         id="about"
-        className=" bg-zinc-950 text-white lg:pl-52 pr-32 px-4 pt-24  pb-32 "
+        className=" bg-zinc-950 text-white lg:pl-52 pr-32 px-4 pt-24  pb-32 bg-gradient-to-b from-zinc-900 to-black"
       >
         <h1 className="font-bold text-blue-500 pb-2 text-xs">A Propos</h1>
         <h1 className=" bebas-neue-regular font-bold text-5xl  text-zinc-50">
-          par gérard bouillet
+          qui sommes nous?
         </h1>
         <div className="flex md:flex-row flex-col">
-          <p className="md:w-6/12 pt-5 mt-6 text-xl  ">
+          <p className="md:w-6/12 pt-5 mt-6 text-xl text-zinc-200  ">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
             rerum illo ducimus ex quos veniam explicabo doloribus beatae ut
             dolore iusto aperiam ipsa animi nesciunt commodi minus, eligendi

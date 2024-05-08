@@ -20,8 +20,46 @@ export default function LandingPage() {
               repellendus perferendis!
             </p>
             <ul className="text-zinc-500 text-xs  pt-2">
-              <li>Sur Paris, Ile de France</li>
-              <li>Joiniable 7 jours sur 7 </li>
+              <li className="flex">
+                <svg
+                  className="w-6 h-6 text-zinc-500 "
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 11.917 9.724 16.5 19 7.5"
+                  />
+                </svg>
+                <span className="pt-1 pl-1">Sur Paris, Ile de France</span>
+              </li>
+              <li className="flex">
+                <svg
+                  className="w-6 h-6 text-zinc-500 "
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 11.917 9.724 16.5 19 7.5"
+                  />
+                </svg>
+                <span className="pt-1 pl-1">Joiniable 7 jours sur 7 </span>
+              </li>
             </ul>
             <a href="#contact">
               <button className=" flex font-semibold  text-base bg-blue-600 hover:bg-blue-500 border border-blue-600 text-white mt-6 py-2  px-7  rounded-full shadow-lg hover:scale-95 transition">

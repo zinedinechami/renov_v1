@@ -14,9 +14,14 @@ export default function Services() {
         <h1 className="font-bold text-blue-600 pb-2 text-center text-xs">
           Services
         </h1>
-        <h1 className="text-center bebas-neue-regular font-bold text-5xl pb-16  text-zinc-950">
-          La prestation quil vous faut
+
+        <h1 className="text-center bebas-neue-regular font-bold text-5xl pb-4  text-zinc-950">
+          Les prestations quil vous faut
         </h1>
+        <p className=" text-center pb-16 text-zinc-500">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+          vel dolor tempora harum nostrum !
+        </p>
 
         <div className="flex space-between">
           <Card image={cuisine.src} title="Montage de Cuisine" />

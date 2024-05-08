@@ -17,7 +17,7 @@ export default function Contact() {
             Rejoinez nous
           </h1>
           <div className="flex ">
-            <div className="bg-white border shadow rounded-lg p-8 mr-8">
+            <div className="bg-white border shadow rounded-xl p-8 mr-8">
               <div className="  flex-col  w-full h-full">
                 <h1 className="text-3xl font-bold">Faisons un devis</h1>
                 <p className="text-zinc-700 text-base pt-4">
@@ -30,7 +30,7 @@ export default function Contact() {
                 </a>
               </div>
             </div>
-            <div className="bg-white rounded-lg p-8 border shadow">
+            <div className="bg-white rounded-xl p-8 border shadow">
               <h1 className="text-3xl font-bold">Pour toute aide</h1>
               <p className="text-zinc-700 text-base pt-4">
                 N hésistez pas a poser nimporte quel question !
