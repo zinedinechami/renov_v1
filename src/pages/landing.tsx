@@ -10,7 +10,7 @@ export default function LandingPage() {
         id="acceuil"
         className=" h-full w-full  [background:radial-gradient(125%_125%_at_50%_10%,#f4f4f5_50%,#1d4ed8_100%)] "
       >
-        <div className="flex flex-col md:flex-row md:pt-26 pt-16 pb-28 lg:px-44 px-4">
+        <div className="flex flex-col md:flex-row md:pt-26 pt-20 pb-28 mx-auto px-4 md:w-9/12">
           <div className="sm:w-3/5 mx-auto  pt-14">
             <h1 className="bebas-neue-regular text-7xl font-bold text-zinc-950 ">
               Rénovez votre bien <span className="text-blue-600">à neuf</span>{" "}
@@ -86,7 +86,7 @@ export default function LandingPage() {
               </button>
             </a>
           </div>
-          <div className=" w-full  sm:pl-28">
+          <div className=" w-full  sm:pl-40">
             <Carousel />
           </div>
         </div>
