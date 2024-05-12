@@ -12,12 +12,12 @@ export default function Header() {
         <div className="flex">
           {/* <Image src={logo} width={90} height={100} quality={100} alt="logo" /> */}
           <a href="#acceuil">
-            <h1 className="bebas-neue-regular  sm:text-4xl text-2xl pt-5 pl-12 flex-col text-zinc-950 ">
+            <h1 className="bebas-neue-regular  sm:text-4xl text-3xl sm:pt-5 pt-6 sm:pl-12 pl-8 flex-col text-zinc-950 ">
               RÉNOV À 9
             </h1>
           </a>
 
-          <ul className="text lg:flex mr-auto  ml-80  hidden pt-7">
+          <ul className="text lg:flex mr-auto  ml-96  hidden pt-7">
             <a
               className=" hover:text-zinc-600 transition-color  hover:-translate-y-1 transition "
               href="#about"
@@ -39,14 +39,14 @@ export default function Header() {
           </ul>
         </div>
 
-        <div className=" absolute top-5 right-3">
-          <ul className="flex">
-            <li className="pt-1 pr-4">
+        <div className=" absolute  top-5 right-3">
+          <ul className="flex ">
+            <li className="pt-1 pr-4 md:flex hidden">
               <a className="hover:opacity-60 transition-opacity" href="">
                 <Image src={insta} width={25} height={20} alt={"instagram"} />
               </a>
             </li>
-            <li className="pt-1 pr-6">
+            <li className="pt-1 pr-6 md:flex hidden">
               <a className="hover:opacity-60 transition-opacity" href="">
                 <Image src={tiktok} width={25} height={20} alt={"tiktok"} />
               </a>
