@@ -8,7 +8,7 @@ import Image from "next/image";
 export default function Header() {
   return (
     <>
-      <nav className="sticky z-50 top-4  w-11/12 mx-auto bg-zinc-50  h-20 shadow   rounded-xl  border border-zinc-100   ">
+      <nav className="sticky z-50 top-5  w-11/12 mx-auto bg-zinc-50  h-20 shadow   rounded-xl  border border-zinc-100   ">
         <div className="flex">
           {/* <Image src={logo} width={90} height={100} quality={100} alt="logo" /> */}
           <a href="#acceuil">
@@ -17,7 +17,13 @@ export default function Header() {
             </h1>
           </a>
 
-          <ul className="text lg:flex mr-auto  ml-96  hidden pt-7">
+          <ul className="text lg:flex mr-auto  ml-80 font-medium text-zinc-950 hidden pt-7">
+            <a
+              className=" hover:text-zinc-600 transition-color  hover:-translate-y-1 transition "
+              href="#acceuil"
+            >
+              <li className="pr-10   ">Acceuil</li>
+            </a>
             <a
               className=" hover:text-zinc-600 transition-color  hover:-translate-y-1 transition "
               href="#about"
