@@ -24,7 +24,7 @@ export default function Services() {
           vel dolor tempora harum nostrum !
         </p>
 
-        <div className="flex space-between">
+        <div className=" flex flex-col md:flex-row">
           <Card image={cuisine.src} title="Montage de Cuisine" />
           <Card image={bain.src} title="Salle de bain" />
           <Card image={peinture.src} title="Peinture" />
