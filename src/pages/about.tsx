@@ -1,4 +1,4 @@
-import img_ex from "../assets/taylor-flowe-30omXayKjQo-unsplash.jpg";
+import pfp from "../assets/profile_pic.jpg";
 import Image from "next/image";
 
 export default function About() {
@@ -6,7 +6,7 @@ export default function About() {
     <>
       <section
         id="about"
-        className=" bg-zinc-950 text-white lg:pl-52 lg:pr-32 px-4 pt-24  pb-32 bg-gradient-to-b from-zinc-900 to-black"
+        className=" bg-zinc-950 text-white lg:pl-52 lg:pr-32 px-4 pt-32  pb-44 bg-gradient-to-b from-zinc-900 to-black"
       >
         <h1 className="font-bold text-blue-500 pb-2 text-xs sm:text-left text-center">
           A Propos
@@ -15,17 +15,40 @@ export default function About() {
           qui sommes nous?
         </h1>
         <div className="flex md:flex-row flex-col">
-          <p className="md:w-6/12 pt-5 mt-6 text-xl text-zinc-200 sm:text-left text-center ">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
-            rerum illo ducimus ex quos veniam explicabo doloribus beatae ut
-            dolore iusto aperiam ipsa animi nesciunt commodi minus, eligendi
-            alias quis. Lorem ipsum dolor sit, amet consectetur adipisicing
-            elit. Aliquid, nobis accusantium suscipit deserunt quam nulla
-            delectus, deleniti similique maiores omnis beatae laborum animi odio
-            a repellat quo adipisci. Iure, debitis.
-          </p>
-          <div className=" mx-auto rounded image-wrapper md:mr-28 lg:mt-8 mt-8">
-            <Image src={img_ex} width={300} height={300} alt="person" />
+          <div className="md:w-6/12 pt-5 mt-6 text-lg text-zinc-100 sm:text-left text-center ">
+            Avec plus de{" "}
+            <span className="font-bold">20 ans d&apos;expérience</span> dans le
+            secteur du bâtiment et de la rénovation, notre équipe est composée
+            d&apos;experts, qui apportent de la qualité et un souci du détail à
+            chaque projet.
+            <div className="pt-12 text-base">
+              <h2 className="font-bold text-lg pb-2">Fiabilité</h2>
+              Nous respectons nos délais et nous tenons nos promesses. Vous
+              pouvez compter sur nous pour compléter votre projet à temps et
+              selon le budget prévu.
+            </div>
+            <div className="pt-8 text-base">
+              <h2 className="font-bold text-lg pb-2">Transparence</h2>
+              Nous croyons en une communication ouverte et honnête avec nos
+              clients à chaque étape du projet. Nous fournissons des estimations
+              claires et des mises à jour régulières
+            </div>
+            <div className="pt-8 text-base">
+              <h2 className="font-bold text-lg pb-2">Service Client</h2>
+              Votre satisfaction est notre priorité absolue. Nous nous efforçons
+              de dépasser vos attentes à chaque étape, en offrant un service
+              client exceptionnel et un suivi attentif.
+            </div>
+          </div>
+          <div className=" mx-auto   md:mr-16 lg:mt-16 mt-20">
+            <Image
+              src={pfp}
+              width={450}
+              height={300}
+              alt="person"
+              className="rounded-lg"
+              quality={100}
+            />
           </div>
         </div>
       </section>

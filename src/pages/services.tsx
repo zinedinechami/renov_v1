@@ -17,11 +17,10 @@ export default function Services() {
         </h1>
 
         <h1 className="text-center bebas-neue-regular font-bold text-5xl pb-4  text-zinc-950">
-          Les prestations quil vous faut
+          Les prestations qu&apos;il vous faut
         </h1>
-        <p className=" text-center pb-20 text-zinc-500">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          vel dolor tempora harum nostrum !
+        <p className=" text-center pb-16 text-sm text-zinc-950">
+          Des travaux de la plus haute qualité, pour de résultats exceptionnels.
         </p>
 
         <div className=" flex flex-col md:flex-row">

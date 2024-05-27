@@ -1,5 +1,7 @@
 import AvisCard from "@/components/avis_card";
 
+// todo: add gradiant
+
 export default function Avis() {
   return (
     <>
@@ -11,35 +13,19 @@ export default function Avis() {
           Temoiniages
         </h1>
         <h1 className=" bebas-neue-regular font-bold text-5xl  text-zinc-50 pb-12 sm:text-left text-center">
-          Nos clients sont ravis
+          Ce que nos clients disent de nous
         </h1>
-        <div className=" p-6 flex flex-col md:flex-row">
+
+        <div className=" pb-2 flex flex-col md:flex-row">
           <AvisCard
-            title="Totalement Ravis"
-            text="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et suscipit assumenda, temporibus non eligendi repellat recusandae aut?"
-            name="Nassera"
+            title="Exemplaire et Impeccable"
+            text="Peinture du salon et de la cuisine, pose de 5 radiateurs électriques nouvelles génération à inertie: le travail de rénovation était impeccable et le respect des délais a été exemplaire."
+            name="Nicole, Paris 18ème"
           />
           <AvisCard
-            title="Totalement Ravis"
-            text="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et suscipit assumenda, temporibus non eligendi repellat recusandae aut?"
-            name="Nassera"
-          />
-          <AvisCard
-            title="Totalement Ravis"
-            text="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et suscipit assumenda, temporibus non eligendi repellat recusandae aut?"
-            name="Nassera"
-          />
-        </div>
-        <div className="p-6 flex flex-col md:flex-row">
-          <AvisCard
-            title="Totalement Ravis"
-            text="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et suscipit assumenda, temporibus non eligendi repellat recusandae aut?"
-            name="Nassera"
-          />
-          <AvisCard
-            title="Totalement Ravis"
-            text="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et suscipit assumenda, temporibus non eligendi repellat recusandae aut?"
-            name="Nassera"
+            title="Un Travail de Précision"
+            text="Création d'une cuisine équipée avec démolition, peinture, plomberie, électricité: le avant/après est très impressionnant, l'équipe de Rénov a fait un travail de précision, la qualité est au rendez-vous! "
+            name="Jacques, Saint Maur"
           />
           <AvisCard
             title="Totalement Ravis"
@@ -47,7 +33,7 @@ export default function Avis() {
             name="Nassera"
           />
         </div>
-        <div className="p-6 flex flex-col md:flex-row ">
+        <div className=" flex flex-col md:flex-row">
           <AvisCard
             title="Totalement Ravis"
             text="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et suscipit assumenda, temporibus non eligendi repellat recusandae aut?"

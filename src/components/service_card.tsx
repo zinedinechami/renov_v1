@@ -12,7 +12,7 @@ export default function ServiceCard({ image, title }: Props) {
   return (
     <>
       <article className="mb-20  mx-auto">
-        <div className=" overflow-hidden   w-80 rounded-md  shadow-md">
+        <div className=" overflow-hidden   w-80 rounded-lg  shadow-md">
           <div className="rounded-md ">
             <Image
               src={image}
