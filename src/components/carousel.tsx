@@ -23,17 +23,17 @@ export function Carousel() {
         <div className="embla__slide w-full h-full">
           <Image
             src={img1}
-            width={520}
+            width={550}
             height={1500}
             alt={"img1"}
             quality={100}
           />
         </div>
         <div className="embla__slide w-full">
-          <Image src={img2} width={510} height={500} alt={"img1"} />
+          <Image src={img2} width={550} height={500} alt={"img1"} />
         </div>
         <div className="embla__slide w-full">
-          <Image src={img3} width={510} height={500} alt={"img1"} />
+          <Image src={img3} width={550} height={500} alt={"img1"} />
         </div>
       </div>
     </div>

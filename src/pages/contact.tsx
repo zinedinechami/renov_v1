@@ -8,18 +8,18 @@ import Image from "next/image";
 export default function Contact() {
   return (
     <>
-      <section id="contact" className=" flex pt-24 pb-32 lg:px-32 px-4 ">
+      <section id="contact" className=" flex pt-24 pb-44 lg:px-32 px-4 ">
         <div className="    mx-auto ">
           <h1 className="font-bold text-blue-600 pb-2 text-xs text-center">
             Contactez Nous
           </h1>
-          <h1 className="text-zinc-950 bebas-neue-regular text-5xl text-center  font-bold  mb-14">
+          <h1 className="text-zinc-950 bebas-neue-regular text-5xl text-center  font-bold  mb-10">
             Rejoinez nous
           </h1>
           <div className="flex lg:flex-row flex-col">
             <div className="bg-white border shadow rounded-xl h-48 p-8 mr-8 mt-2">
               <div className="  flex-col  w-full h-full">
-                <h1 className="text-3xl font-bold">Faisons un devis</h1>
+                <h1 className="text-xl font-bold">Faisons un devis</h1>
                 <p className="text-zinc-950 text-sm pt-2">
                   Parlez nous de votre projet, nous serrons ravi de vous aider !
                 </p>
@@ -31,7 +31,7 @@ export default function Contact() {
               </div>
             </div>
             <div className="bg-white rounded-xl p-8 h-48 border shadow mt-2">
-              <h1 className="text-3xl font-bold">Pour toute aide</h1>
+              <h1 className="text-xl font-bold">Pour tout renseignements</h1>
               <p className="text-zinc-950 text-sm pt-2">
                 N&apos;hésistez pas à nous poser n&apos;importe quel question !
               </p>

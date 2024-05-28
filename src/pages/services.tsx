@@ -11,15 +11,15 @@ import menuiserie from "../assets/menuiserie.jpg";
 export default function Services() {
   return (
     <>
-      <section id="services" className="pt-24 pb-24  w-10/12 mx-auto  ">
+      <section id="services" className="pt-32 pb-36  w-10/12 mx-auto  ">
         <h1 className="font-bold text-blue-600 pb-2 text-center text-xs">
           Services
         </h1>
 
-        <h1 className="text-center bebas-neue-regular font-bold text-5xl pb-4  text-zinc-950">
-          Les prestations qu&apos;il vous faut
+        <h1 className="text-center bebas-neue-regular font-semibold text-5xl pb-2  text-zinc-950">
+          Les prestations dont vous avez besoin
         </h1>
-        <p className=" text-center pb-16 text-sm text-zinc-950">
+        <p className=" text-center pb-12 text-sm text-zinc-950">
           Des travaux de la plus haute qualité, pour de résultats exceptionnels.
         </p>
 

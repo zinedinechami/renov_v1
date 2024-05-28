@@ -33,6 +33,7 @@ export default function Avis() {
             name="Nassera"
           />
         </div>
+
         <div className=" flex flex-col md:flex-row">
           <AvisCard
             title="Totalement Ravis"
@@ -50,6 +51,7 @@ export default function Avis() {
             name="Nassera"
           />
         </div>
+        <div className="w-10/12  h-44 bg-gradient-to-t from-black  absolute bottom-40"></div>
       </section>
     </>
   );

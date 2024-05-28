@@ -11,24 +11,24 @@ type Props = {
 export default function ServiceCard({ image, title }: Props) {
   return (
     <>
-      <article className="mb-20  mx-auto">
-        <div className=" overflow-hidden   w-80 rounded-lg  shadow-md">
-          <div className="rounded-md ">
-            <Image
-              src={image}
-              width={600}
-              height={600}
-              style={{ objectFit: "fill" }}
-              alt={title}
-            />
-          </div>
+      <article className="mb-10  mx-auto">
+        <div className=" overflow-hidden h-96    w-96 rounded-lg  shadow-md">
+          <Image
+            src={image}
+            width={600}
+            height={600}
+            className="rounded-lg brightness-90"
+            alt={title}
+          />
         </div>
-        <div className="text-xl pt-4 pb-2 font-semibold ">{title}</div>
-        <div className="w-80 text-zinc-500">
+
+        <h1 className=" text-zinc-900 font-semibold text-xl flex pt-3">
+          {title}
+        </h1>
+        <div className="w-96 text-sm ">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit.{" "}
         </div>
       </article>
-      {/* <h1 className=" text-zinc-900 font-bold text-xl flex">{title}</h1> */}
     </>
   );
 }
