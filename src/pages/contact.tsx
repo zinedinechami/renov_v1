@@ -20,7 +20,7 @@ export default function Contact() {
             <div className="bg-white border shadow rounded-xl h-48 p-8 mr-8 mt-2">
               <div className="  flex-col  w-full h-full">
                 <h1 className="text-xl font-bold">Faisons un devis</h1>
-                <p className="text-zinc-950 text-sm pt-2">
+                <p className="text-zinc-500 text-sm pt-2">
                   Parlez nous de votre projet, nous serrons ravi de vous aider !
                 </p>
                 <a href="tel:0619513185">
@@ -32,7 +32,7 @@ export default function Contact() {
             </div>
             <div className="bg-white rounded-xl p-8 h-48 border shadow mt-2">
               <h1 className="text-xl font-bold">Pour tout renseignements</h1>
-              <p className="text-zinc-950 text-sm pt-2">
+              <p className="text-zinc-500 text-sm pt-2">
                 N&apos;hésistez pas à nous poser n&apos;importe quel question !
               </p>
               <a href="mailto:g.bouillet@hotmail.com">

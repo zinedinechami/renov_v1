@@ -10,17 +10,17 @@ export default function LandingPage() {
         id="acceuil"
         className=" h-full w-full  [background:radial-gradient(125%_125%_at_50%_10%,#f4f4f5_45%,#1d4ed8_100%)] "
       >
-        <div className="flex flex-col  md:flex-row  sm:mt-20 mt-8 pb-28 mx-auto px-4 md:w-9/12">
-          <div className="sm:w-3/5 mx-auto  pt-12">
+        <div className="flex flex-col  md:flex-row  sm:mt-20 mt-8 pb-32 mx-auto px-4 md:w-9/12">
+          <div className="sm:w-3/5 mx-auto  pt-10">
             <h1 className="bebas-neue-regular text-center sm:text-left text-7xl font-semibold text-zinc-950 ">
               Rénovez votre bien <span className="text-blue-600">à neuf</span>{" "}
             </h1>
             <div className="sm:text-left text-center">
-              <p className="text-zinc-900 text-sm ">
+              <p className="text-zinc-900 text-sm w-10/12">
                 Transformez votre maison en un espace de rêve avec nos services
-                de rénovation professionnels.
+                de rénovation.
               </p>
-              <ul className="text-zinc-900 text-xs text-center pt-4 md:block hidden">
+              <ul className="text-zinc-900 text-xs text-center pt-2 md:block hidden">
                 <li className="flex">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -60,24 +60,19 @@ export default function LandingPage() {
                 </li>
               </ul>
               <a href="#contact">
-                <button className="lg:mx-0 mx-auto flex font-semibold  text-base bg-blue-600  border border-blue-700 text-white mt-6 py-3  px-8  rounded-full shadow-lg hover:scale-95 transition">
+                <button className="lg:mx-0 mx-auto flex font-medium  text-base bg-blue-600  border border-blue-700 text-white mt-6 py-3  px-8  rounded-full shadow-lg hover:scale-95 transition">
                   Je veux un devis gratuit{" "}
                   <span>
                     <svg
-                      className="w-4 h-6 ml-2 text-gray-800 dark:text-white"
-                      aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      fill="none"
                       viewBox="0 0 24 24"
+                      fill="currentColor"
+                      className="w-6 ml-2"
                     >
                       <path
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="m9 5 7 7-7 7"
+                        fillRule="evenodd"
+                        d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z"
+                        clipRule="evenodd"
                       />
                     </svg>
                   </span>

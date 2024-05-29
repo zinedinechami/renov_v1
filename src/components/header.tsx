@@ -8,46 +8,46 @@ import Image from "next/image";
 export default function Header() {
   return (
     <>
-      <nav className="sticky z-50 top-4  w-11/12 mx-auto bg-zinc-50  h-20 shadow   rounded-full  border border-zinc-100   ">
+      <nav className="sticky z-50 top-4  w-10/12 mx-auto bg-zinc-50  h-20 shadow   rounded-full  border border-zinc-100   ">
         <div className="flex">
           {/* <Image src={logo} width={90} height={100} quality={100} alt="logo" /> */}
           <a href="#acceuil">
-            <h1 className="bebas-neue-regular  sm:text-3xl text-3xl sm:pt-6 pt-6 sm:pl-12 pl-10 flex-col text-zinc-950 ">
+            <h1 className="bebas-neue-regular  sm:text-3xl text-3xl sm:pt-6 pt-6 sm:pl-12 pl-6 flex-col text-zinc-950 ">
               RÉNOV À 9
             </h1>
           </a>
 
-          <ul className="text lg:flex mr-auto  ml-80 font-medium text-zinc-950 hidden pt-7">
+          <ul className="text lg:flex mr-auto  ml-64 font-medium text-zinc-950 hidden pt-7">
             <a
               className=" hover:text-zinc-600 transition-color  hover:-translate-y-1 transition "
               href="#acceuil"
             >
-              <li className="pr-10   ">Acceuil</li>
+              <li className="pr-12   ">Acceuil</li>
             </a>
             <a
               className=" hover:text-zinc-600 transition-color  hover:-translate-y-1 transition "
               href="#about"
             >
-              <li className="pr-10   ">À Propos</li>
+              <li className="pr-12   ">À Propos</li>
             </a>
             <a
               className="hover:text-zinc-600 transition-color hover:-translate-y-1 transition"
               href="#services"
             >
-              <li className="pr-10 ">Services</li>
+              <li className="pr-12 ">Services</li>
             </a>
             <a
               className="hover:text-zinc-600 transition-color hover:-translate-y-1 transition"
               href="#avis"
             >
-              <li className="pr-10 ">Temoignages</li>
+              <li className="pr-12 ">Temoignages</li>
             </a>
           </ul>
         </div>
 
         <div className=" absolute  top-4 right-3">
           <ul className="flex ">
-            <li className="pt-2 pr-4 md:flex hidden">
+            {/* <li className="pt-2 pr-4 md:flex hidden">
               <a className="hover:opacity-80 transition-opacity" href="">
                 <Image src={insta} width={25} height={20} alt={"instagram"} />
               </a>
@@ -56,9 +56,9 @@ export default function Header() {
               <a className="hover:opacity-80 transition-opacity" href="">
                 <Image src={tiktok} width={25} height={20} alt={"tiktok"} />
               </a>
-            </li>
+            </li> */}
             <a href="#contact">
-              <button className="  flex font-semibold text-sm bg-zinc-950  hover:scale-95 transition  text-white  py-3 px-4 mr-6   rounded-full shadow-md ">
+              <button className="  flex font-semibold text-sm bg-zinc-950  hover:scale-95 transition  text-white  py-3 px-6 mr-2   rounded-full shadow-md ">
                 Contactez Nous
               </button>
             </a>

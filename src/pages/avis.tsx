@@ -10,7 +10,7 @@ export default function Avis() {
         className="bg-zinc-950 text-white relative lg:pl-52 lg:pr-32 px-4 pt-32  pb-40 bg-gradient-to-b from-zinc-900 to-black"
       >
         <h1 className="font-bold text-blue-500 pb-2 text-xs sm:text-left text-center">
-          Temoiniages
+          Témoiniages
         </h1>
         <h1 className=" bebas-neue-regular font-bold text-5xl  text-zinc-50 pb-12 sm:text-left text-center">
           Ce que nos clients disent de nous

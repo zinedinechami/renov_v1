@@ -4,11 +4,12 @@ import example from "../assets/fake_img1 (1).jpg";
 type Props = {
   image: string;
   title: string;
+  description: string;
 };
 
 // todo: add text under
 
-export default function ServiceCard({ image, title }: Props) {
+export default function ServiceCard({ image, title, description }: Props) {
   return (
     <>
       <article className="mb-10  mx-auto">
@@ -25,9 +26,7 @@ export default function ServiceCard({ image, title }: Props) {
         <h1 className=" text-zinc-900 font-semibold text-xl flex pt-3">
           {title}
         </h1>
-        <div className="w-96 text-sm ">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit.{" "}
-        </div>
+        <div className="w-96 text-sm text-zinc-500 ">{description}</div>
       </article>
     </>
   );
