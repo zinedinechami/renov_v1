@@ -60,7 +60,7 @@ export default function LandingPage() {
                 </li>
               </ul>
               <a href="#contact">
-                <button className="lg:mx-0 mx-auto flex font-medium  text-base bg-blue-600  border border-blue-700 text-white mt-6 py-3  px-8  rounded-full shadow-lg hover:scale-95 transition">
+                <button className="lg:mx-0 mx-auto flex font-medium  text-base bg-blue-600  border border-blue-500  text-white mt-6 py-3  px-8  rounded-full  hover:bg-blue-500 transition-colors">
                   Je veux un devis gratuit{" "}
                   <span>
                     <svg

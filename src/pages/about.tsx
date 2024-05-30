@@ -14,7 +14,7 @@ export default function About() {
         <h1 className=" bebas-neue-regular font-bold text-5xl  text-zinc-50 sm:text-left text-center">
           qui sommes nous ?
         </h1>
-        <div className="flex md:flex-row flex-col pt-4 ">
+        <div className="flex md:flex-row flex-col ">
           <div className="md:w-7/12 pt-10  text-lg text-zinc-100 sm:text-left text-center ">
             <div className="w-11/12">
               Avec plus de{" "}

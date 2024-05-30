@@ -11,7 +11,7 @@ import menuiserie from "../assets/menuiserie.jpg";
 export default function Services() {
   return (
     <>
-      <section id="services" className="pt-32 pb-36  w-10/12 mx-auto  ">
+      <section id="services" className="pt-32 pb-32 w-10/12 mx-auto  ">
         <h1 className="font-bold text-blue-600 pb-2 text-center text-xs">
           Services
         </h1>
