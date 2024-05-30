@@ -12,7 +12,7 @@ export default function Footer() {
               RÉNOV À 9
             </h1>
             <p className="text-zinc-900 text-xs  ">
-              Site codé par <span className="underline">Zinedine Chami</span>
+              Site réalisé par <span className="underline">Zinedine Chami</span>
             </p>
           </div>
 

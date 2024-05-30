@@ -9,13 +9,15 @@ export default function Avis() {
         id="avis"
         className="bg-zinc-950 text-white relative lg:pl-52 lg:pr-32 px-4 pt-32  pb-40 bg-gradient-to-b from-zinc-900 to-black"
       >
-        <h1 className="font-bold text-blue-500 pb-2 text-xs sm:text-left text-center">
+        <h1 className="font-bold text-blue-500 pb-2 text-xs  text-center">
           Témoiniages
         </h1>
-        <h1 className=" bebas-neue-regular font-bold text-5xl  text-zinc-50 pb-12 sm:text-left text-center">
+        <h1 className=" bebas-neue-regular font-bold text-5xl  text-zinc-50 pb-4  text-center">
           Ce que nos clients disent de nous
         </h1>
-
+        <p className="pb-10 text-zinc-300 text-center">
+          Des clients ravis témoignent de nos transformations exceptionnelles.
+        </p>
         <div className=" pb-2 flex flex-col md:flex-row">
           <AvisCard
             title="Exemplaire et Impeccable"

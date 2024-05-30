@@ -13,7 +13,7 @@ export default function ServiceCard({ image, title, description }: Props) {
   return (
     <>
       <article className="mb-10  mx-auto">
-        <div className=" overflow-hidden h-96    w-96 rounded-lg  ">
+        <div className=" overflow-hidden h-80    w-80 rounded-lg  ">
           <Image
             src={image}
             width={600}
@@ -23,10 +23,10 @@ export default function ServiceCard({ image, title, description }: Props) {
           />
         </div>
 
-        <h1 className=" text-zinc-900 font-semibold text-xl flex pt-3">
+        <h1 className=" text-zinc-900 font-semibold text-lg pb-1 flex pt-2 ">
           {title}
         </h1>
-        <div className="w-96 text-sm text-zinc-500 ">{description}</div>
+        <div className="w-80 text-sm text-zinc-400 ">{description}</div>
       </article>
     </>
   );

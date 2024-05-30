@@ -11,18 +11,18 @@ import menuiserie from "../assets/menuiserie.jpg";
 export default function Services() {
   return (
     <>
-      <section id="services" className="pt-32 pb-32 w-10/12 mx-auto  ">
-        <h1 className="font-bold text-blue-600 pb-2 text-center text-xs">
-          Services
-        </h1>
+      <section id="services" className="pt-32 pb-28 w-9/12 mx-auto  ">
+        <div className="ml-7">
+          <h1 className="font-bold text-blue-600 pb-2  text-xs">Services</h1>
 
-        <h1 className="text-center bebas-neue-regular font-semibold text-5xl pb-2  text-zinc-950">
-          Les prestations dont vous avez besoin
-        </h1>
-        <p className=" text-center pb-12 text-sm text-zinc-900">
-          Des travaux de la plus haute qualité, pour de résultats exceptionnels.
-        </p>
-
+          <h1 className=" bebas-neue-regular font-semibold text-5xl pb-2  text-zinc-950">
+            Les prestations dont vous avez besoin
+          </h1>
+          <p className="  pb-10 text-sm text-zinc-900">
+            Des travaux de la plus haute qualité, pour de résultats
+            exceptionnels.
+          </p>
+        </div>
         <div className=" flex flex-col md:flex-row">
           <Card
             image={cuisine.src}

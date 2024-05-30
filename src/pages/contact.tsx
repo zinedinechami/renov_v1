@@ -47,7 +47,7 @@ export default function Contact() {
             </div>
           </div> */}
           <a href="tel:0619513185">
-            <button className=" mx-auto flex font-medium  text-base bg-blue-600  border border-blue-500 text-white mt-8 py-4  px-8  rounded-full  hover:bg-blue-500 transition-colors">
+            <button className=" mx-auto flex font-bold  text-base bg-blue-600  border border-blue-500 text-white mt-8 py-4  px-8  rounded-full  hover:bg-blue-500 transition-colors">
               <span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

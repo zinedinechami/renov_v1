@@ -12,7 +12,7 @@ export default function Header() {
         <div className="flex">
           {/* <Image src={logo} width={90} height={100} quality={100} alt="logo" /> */}
           <a href="#acceuil">
-            <h1 className="bebas-neue-regular  sm:text-3xl text-3xl sm:pt-6 pt-6 sm:pl-10 pl-6 flex-col text-zinc-950 ">
+            <h1 className="bebas-neue-regular  sm:text-3xl text-3xl sm:pt-6 pt-5 sm:pl-10 pl-6 flex-col text-zinc-950 ">
               RÉNOV À 9
             </h1>
           </a>
