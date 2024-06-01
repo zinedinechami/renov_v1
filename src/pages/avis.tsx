@@ -1,7 +1,5 @@
 import AvisCard from "@/components/avis_card";
 
-// todo: add gradiant
-
 export default function Avis() {
   return (
     <>
@@ -12,13 +10,13 @@ export default function Avis() {
         <h1 className="font-bold text-blue-500 pb-2 text-xs  text-center">
           Témoiniages
         </h1>
-        <h1 className=" bebas-neue-regular font-bold text-5xl  text-zinc-50 pb-4  text-center">
+        <h1 className=" bebas-neue-regular font-bold sm:text-5xl text-4xl  text-zinc-50 pb-4  text-center">
           Ce que nos clients disent de nous
         </h1>
-        <p className="pb-10 text-zinc-300 text-center">
+        <p className="pb-10 text-zinc-300 text-center sm:text-sm text-xs">
           Des clients ravis témoignent de nos transformations exceptionnelles.
         </p>
-        <div className=" pb-2 flex flex-col md:flex-row">
+        <div className=" pb-2 flex flex-col md:flex-row p-6 md:p-0">
           <AvisCard
             title="Exemplaire et Impeccable"
             text="Peinture du salon et de la cuisine, pose de 5 radiateurs électriques nouvelles génération à inertie: le travail de rénovation était impeccable et le respect des délais a été exemplaire."
@@ -36,7 +34,7 @@ export default function Avis() {
           />
         </div>
 
-        <div className=" flex flex-col md:flex-row">
+        <div className=" md:flex flex-col md:flex-row hidden">
           <AvisCard
             title="Totalement Ravis"
             text="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et suscipit assumenda, temporibus non eligendi repellat recusandae aut?"
@@ -53,7 +51,7 @@ export default function Avis() {
             name="Nassera"
           />
         </div>
-        <div className="w-10/12  h-44 bg-gradient-to-t from-black  absolute bottom-40"></div>
+        <div className="xl:w-10/12 w-full  h-44 bg-gradient-to-t from-black  absolute bottom-40"></div>
       </section>
     </>
   );

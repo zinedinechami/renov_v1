@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <>
-      <footer className="  border border-zinc-200 px-48 bg-zinc-50">
+      <footer className="  border border-zinc-200 sm:px-48 px-4 bg-zinc-50">
         <div className="flex mt-6 mb-4 relative">
           <div>
             <h1 className="bebas-neue-regular  sm:text-4xl text-3xl  flex-col text-zinc-950  ">
@@ -23,13 +23,11 @@ export default function Footer() {
               </li>
             </a>
             <li className=" pr-4 md:flex flex-row hidden">
-              <a className="hover:opacity-80 transition-opacity" href="">
+              <a
+                className="hover:opacity-80 transition-opacity"
+                href="https://www.instagram.com/renov.a.9/"
+              >
                 <Image src={insta} width={25} height={20} alt={"instagram"} />
-              </a>
-            </li>
-            <li className=" pr-6 md:flex hidden">
-              <a className="hover:opacity-80 transition-opacity" href="">
-                <Image src={tiktok} width={25} height={20} alt={"tiktok"} />
               </a>
             </li>
           </ul>

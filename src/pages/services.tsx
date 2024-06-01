@@ -11,15 +11,17 @@ export default function Services() {
     <>
       <section
         id="services"
-        className="pt-32 pb-28 xl:w-9/12 w-11/12 mx-auto  "
+        className="sm:pt-32 pt-20 pb-28 xl:w-9/12 w-11/12 mx-auto   "
       >
-        <div className="ml-7">
-          <h1 className="font-bold text-blue-600 pb-2  text-xs">Services</h1>
+        <div className="sm:ml-7">
+          <h1 className="font-bold text-blue-600 pb-2  text-xs sm:text-left text-center">
+            Services
+          </h1>
 
-          <h1 className=" bebas-neue-regular font-semibold text-5xl pb-2  text-zinc-950">
+          <h1 className=" bebas-neue-regular font-semibold sm:text-5xl text-4xl sm:text-left text-center pb-2  text-zinc-950">
             Les prestations dont vous avez besoin
           </h1>
-          <p className="  pb-10 text-sm text-zinc-900">
+          <p className="  pb-10 sm:text-sm text-xs text-zinc-900 sm:text-left text-center">
             Des travaux de la plus haute qualité, pour de résultats
             exceptionnels.
           </p>

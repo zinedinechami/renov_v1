@@ -13,39 +13,13 @@ export default function Contact() {
           <h1 className="font-bold text-blue-600 pb-2 text-xs text-center">
             Contactez Nous
           </h1>
-          <h1 className="text-zinc-950 bebas-neue-regular text-5xl text-center  font-bold  mb-2">
+          <h1 className="text-zinc-950 bebas-neue-regular sm:text-5xl text-4xl text-center  font-bold  mb-2">
             Prenez en main votre renovation
           </h1>
-          <p className="text-sm">
+          <p className=" text-center sm:text-sm text-xs">
             Parlez nous de votre projet et faisons un devis, nous serrons ravi
             de vous aider.
           </p>
-          {/* <div className="flex lg:flex-row flex-col">
-            <div className="bg-white border shadow rounded-xl h-48 p-8 mr-8 mt-2">
-              <div className="  flex-col  w-full h-full">
-                <h1 className="text-xl font-bold">Faisons un devis</h1>
-                <p className="text-zinc-500 text-sm pt-2">
-                  Parlez nous de votre projet, nous serrons ravi de vous aider !
-                </p>
-                <a href="tel:0619513185">
-                  <button className="   font-semibold  text-base bg-blue-600  text-white my-6 py-2 px-8 border border-blue-600 rounded-full shadow-lg hover:scale-95 transition">
-                    
-                  </button>
-                </a>
-              </div>
-            </div>
-            <div className="bg-white rounded-xl p-8 h-48 border shadow mt-2">
-              <h1 className="text-xl font-bold">Pour tout renseignements</h1>
-              <p className="text-zinc-500 text-sm pt-2">
-                N&apos;hésistez pas à nous poser n&apos;importe quel question !
-              </p>
-              <a href="mailto:g.bouillet@hotmail.com">
-                <button className="   font-semibold text-base bg-zinc-950  text-white my-6 py-2 px-10 border  rounded-full shadow-lg hover:scale-95 transition">
-                  g.bouillet@hotmail.com
-                </button>
-              </a>
-            </div>
-          </div> */}
           <a href="tel:0619513185">
             <button className=" mx-auto flex font-bold  text-base bg-blue-600  border border-blue-500 text-white mt-8 py-4  px-8  rounded-full  hover:bg-blue-500 transition-colors">
               <span>
