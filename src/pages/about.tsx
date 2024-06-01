@@ -15,7 +15,7 @@ export default function About() {
           <h1 className=" bebas-neue-regular font-bold sm:text-5xl text-4xl text-zinc-50 sm:text-left text-center">
             qui sommes nous ?
           </h1>
-          <div className="flex md:flex-row flex-col ">
+          <div className="flex lg:flex-row flex-col ">
             <div className="md:w-7/12 pt-10   text-zinc-100  ">
               <div className="w-11/12 ">
                 Avec plus de 20 ans d&apos;expérience dans le secteur du

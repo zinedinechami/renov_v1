@@ -6,12 +6,13 @@ import plomberie from "../assets/plomberie.jpg";
 import electricite from "../assets/electricite.jpg";
 import menuiserie from "../assets/menuiserie.jpg";
 
-// todo: create bento with images
-
 export default function Services() {
   return (
     <>
-      <section id="services" className="pt-32 pb-28 w-9/12 mx-auto  ">
+      <section
+        id="services"
+        className="pt-32 pb-28 xl:w-9/12 w-11/12 mx-auto  "
+      >
         <div className="ml-7">
           <h1 className="font-bold text-blue-600 pb-2  text-xs">Services</h1>
 
@@ -23,7 +24,7 @@ export default function Services() {
             exceptionnels.
           </p>
         </div>
-        <div className=" flex flex-col md:flex-row">
+        <div className=" flex flex-col md:flex-row flex-wrap">
           <Card
             image={cuisine.src}
             title="Montage de Cuisine"
@@ -39,8 +40,6 @@ export default function Services() {
             title="Peinture"
             description="Application experte de peinture pour des finitions impeccables."
           />
-        </div>
-        <div className="flex flex-col md:flex-row">
           <Card
             image={plomberie.src}
             title="Plomberie"
