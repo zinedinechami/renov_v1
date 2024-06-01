@@ -6,17 +6,17 @@ export default function About() {
     <>
       <section
         id="about"
-        className=" bg-zinc-950 text-white  px-4 pt-32  pb-40 bg-gradient-to-b from-zinc-900 to-black"
+        className=" bg-zinc-950 text-white  px-4 sm:pt-32 pt-20  pb-40 bg-gradient-to-b from-zinc-900 to-black"
       >
-        <div className="w-9/12 mx-auto">
+        <div className="sm:w-9/12 mx-auto">
           <h1 className="font-semibold text-blue-500 pb-2 text-xs sm:text-left text-center">
             À Propos
           </h1>
-          <h1 className=" bebas-neue-regular font-bold text-5xl  text-zinc-50 sm:text-left text-center">
+          <h1 className=" bebas-neue-regular font-bold sm:text-5xl text-4xl text-zinc-50 sm:text-left text-center">
             qui sommes nous ?
           </h1>
           <div className="flex md:flex-row flex-col ">
-            <div className="md:w-7/12 pt-10   text-zinc-100 sm:text-left text-center ">
+            <div className="md:w-7/12 pt-10   text-zinc-100  ">
               <div className="w-11/12 ">
                 Avec plus de 20 ans d&apos;expérience dans le secteur du
                 bâtiment et de la rénovation, notre équipe est composée
@@ -24,7 +24,7 @@ export default function About() {
                 souci du détail inégalé à chaque projet.
               </div>
               <div className="pt-10 text-base">
-                <h2 className="font-bold text-lg pb-2 flex">
+                <h2 className="font-bold text-lg pb-2 flex  ">
                   {" "}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

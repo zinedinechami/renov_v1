@@ -12,15 +12,15 @@ export default function LandingPage() {
       >
         <div className="flex flex-col  xl:flex-row  sm:mt-20 mt-8 pb-32 mx-auto px-4 xl:w-9/12">
           <div className="sm:w-3/5 mx-auto  pt-10">
-            <h1 className="bebas-neue-regular text-center xl:text-left xl:text-7xl text-6xl font-semibold text-zinc-950 ">
+            <h1 className="bebas-neue-regular text-center xl:text-left lg:text-7xl text-5xl font-semibold text-zinc-950 ">
               Rénovez votre bien <span className="text-blue-600">à neuf</span>{" "}
             </h1>
             <div className="xl:text-left text-center ">
-              <p className="text-zinc-900 text-sm xl:w-10/12">
+              <p className="text-zinc-900 sm:text-sm text-xs xl:w-10/12">
                 Transformez votre maison en un espace de rêve avec nos services
                 de rénovation.
               </p>
-              <ul className="text-zinc-900 text-xs text-center pt-2 md:block hidden">
+              <ul className="text-zinc-900 text-xs text-center pt-2 xl:block hidden">
                 <li className="flex">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -80,7 +80,7 @@ export default function LandingPage() {
               </a>
             </div>
           </div>
-          <div className=" w-full  xl:pl-40 ">
+          <div className=" w-full  xl:pl-40 md:hidden xl:block sm:hidden">
             <Carousel />
           </div>
         </div>
