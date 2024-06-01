@@ -10,13 +10,13 @@ export default function LandingPage() {
         id="acceuil"
         className=" h-full w-full  [background:radial-gradient(125%_125%_at_50%_10%,#f4f4f5_45%,#1d4ed8_100%)] "
       >
-        <div className="flex flex-col  md:flex-row  sm:mt-20 mt-8 pb-32 mx-auto px-4 md:w-9/12">
+        <div className="flex flex-col  xl:flex-row  sm:mt-20 mt-8 pb-32 mx-auto px-4 xl:w-9/12">
           <div className="sm:w-3/5 mx-auto  pt-10">
-            <h1 className="bebas-neue-regular text-center sm:text-left text-7xl font-semibold text-zinc-950 ">
+            <h1 className="bebas-neue-regular text-center xl:text-left xl:text-7xl text-6xl font-semibold text-zinc-950 ">
               Rénovez votre bien <span className="text-blue-600">à neuf</span>{" "}
             </h1>
-            <div className="sm:text-left text-center">
-              <p className="text-zinc-900 text-sm w-10/12">
+            <div className="xl:text-left text-center ">
+              <p className="text-zinc-900 text-sm xl:w-10/12">
                 Transformez votre maison en un espace de rêve avec nos services
                 de rénovation.
               </p>
@@ -60,7 +60,7 @@ export default function LandingPage() {
                 </li>
               </ul>
               <a href="#contact">
-                <button className="lg:mx-0 mx-auto flex font-medium  text-base bg-blue-600  border border-blue-500  text-white mt-6 py-3  px-8  rounded-full  hover:bg-blue-500 transition-colors">
+                <button className="xl:mx-0 mx-auto flex font-medium  text-base bg-blue-600  border border-blue-500  text-white mt-6 py-3  px-8  rounded-full  hover:bg-blue-500 transition-colors">
                   Je veux un devis gratuit{" "}
                   <span>
                     <svg
@@ -80,7 +80,7 @@ export default function LandingPage() {
               </a>
             </div>
           </div>
-          <div className=" w-full  sm:pl-40">
+          <div className=" w-full  xl:pl-40 ">
             <Carousel />
           </div>
         </div>

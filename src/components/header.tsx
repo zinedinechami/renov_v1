@@ -8,16 +8,16 @@ import Image from "next/image";
 export default function Header() {
   return (
     <>
-      <nav className="sticky z-50 top-5  w-10/12 mx-auto bg-zinc-50  h-20 shadow-sm   rounded-full  border border-zinc-200   ">
+      <nav className="sticky z-50 top-5  w-10/12 mx-auto bg-zinc-50  sm:h-20 h-16 shadow-sm   rounded-full  border border-zinc-200   ">
         <div className="flex">
           {/* <Image src={logo} width={90} height={100} quality={100} alt="logo" /> */}
           <a href="#acceuil">
-            <h1 className="bebas-neue-regular  sm:text-3xl text-3xl sm:pt-6 pt-5 sm:pl-10 pl-6 flex-col text-zinc-950 ">
+            <h1 className="bebas-neue-regular  sm:text-3xl text-2xl sm:pt-6 pt-4 sm:pl-10 pl-6 flex-col text-zinc-950 ">
               RÉNOV À 9
             </h1>
           </a>
 
-          <ul className="text lg:flex mr-auto  ml-64 font-medium text-zinc-950 hidden pt-7">
+          <ul className="text xl:flex mr-auto  ml-64 font-medium text-zinc-950 hidden pt-7">
             <a
               className=" hover:text-zinc-600 transition-color  hover:-translate-y-1 transition "
               href="#acceuil"
@@ -45,25 +45,11 @@ export default function Header() {
           </ul>
         </div>
 
-        <div className=" absolute  top-4 right-3">
-          <ul className="flex ">
-            {/* <li className="pt-2 pr-4 md:flex hidden">
-              <a className="hover:opacity-80 transition-opacity" href="">
-                <Image src={insta} width={25} height={20} alt={"instagram"} />
-              </a>
-            </li>
-            <li className="pt-2 pr-6 md:flex hidden">
-              <a className="hover:opacity-80 transition-opacity" href="">
-                <Image src={tiktok} width={25} height={20} alt={"tiktok"} />
-              </a>
-            </li> */}
-            <a href="#contact">
-              <button className="  flex font-semibold text-sm bg-zinc-950  hover:bg-zinc-700 transition-colors  text-white  py-3 px-6 mr-2   rounded-full  ">
-                Contactez Nous
-              </button>
-            </a>
-          </ul>
-        </div>
+        <a href="#contact">
+          <button className="absolute  sm:top-4 top-2 sm:right-3 right-1 flex font-semibold text-sm bg-zinc-950  hover:bg-zinc-700 transition-colors  text-white  py-3 px-6 mr-2   rounded-full  ">
+            Contactez Nous
+          </button>
+        </a>
       </nav>
     </>
   );
