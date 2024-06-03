@@ -5,7 +5,7 @@ export default function Avis() {
     <>
       <section
         id="avis"
-        className="bg-zinc-950 text-white relative lg:pl-52 lg:pr-32 px-4 pt-32  pb-40 bg-gradient-to-b from-zinc-900 to-black"
+        className="bg-zinc-950 text-white relative  lg:pl-52 lg:pr-32 px-4 sm:pt-32 pt-16  pb-40 bg-gradient-to-b from-zinc-900 to-black"
       >
         <h1 className="font-bold text-blue-500 pb-2 text-xs  text-center">
           Témoiniages

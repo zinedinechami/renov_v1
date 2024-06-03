@@ -11,9 +11,9 @@ export default function Footer() {
             <h1 className="bebas-neue-regular  sm:text-4xl text-3xl  flex-col text-zinc-950  ">
               RÉNOV À 9
             </h1>
-            <p className="text-zinc-900 text-xs  ">
+            {/* <p className="text-zinc-900 text-xs  ">
               Site réalisé par <span className="underline">Zinedine Chami</span>
-            </p>
+            </p> */}
           </div>
 
           <ul className="flex absolute right-0 mt-2">

@@ -11,7 +11,7 @@ export default function Services() {
     <>
       <section
         id="services"
-        className="sm:pt-32 pt-20 pb-28 xl:w-9/12 w-11/12 mx-auto   "
+        className="sm:pt-32 pt-20 sm:pb-28 pb-16 xl:w-9/12 w-11/12 mx-auto   "
       >
         <div className="sm:ml-7">
           <h1 className="font-bold text-blue-600 pb-2  text-xs sm:text-left text-center">

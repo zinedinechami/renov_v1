@@ -10,7 +10,7 @@ export default function LandingPage() {
         id="acceuil"
         className=" h-full w-full  [background:radial-gradient(125%_125%_at_50%_10%,#f4f4f5_45%,#1d4ed8_100%)] "
       >
-        <div className="flex flex-col  xl:flex-row  sm:mt-16 mt-6 pb-32 mx-auto px-4 xl:w-9/12">
+        <div className="flex flex-col  xl:flex-row  sm:mt-16 mt-6 sm:pb-32 pb-20 mx-auto px-4 xl:w-9/12">
           <div className="sm:w-3/5 mx-auto xl:pl-10  pt-12">
             <h1 className="bebas-neue-regular text-center xl:text-left lg:text-7xl text-5xl font-semibold text-zinc-950 ">
               Rénovez votre bien <span className="text-blue-600">à neuf</span>{" "}

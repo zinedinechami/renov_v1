@@ -6,7 +6,7 @@ export default function About() {
     <>
       <section
         id="about"
-        className=" bg-zinc-950 text-white  px-4 sm:pt-32 pt-20  pb-40 bg-gradient-to-b from-zinc-900 to-black"
+        className=" bg-zinc-950 text-white  px-4 sm:pt-32 pt-16  sm:pb-40 pb-20 bg-gradient-to-b from-zinc-900 to-black"
       >
         <div className="sm:w-9/12 mx-auto">
           <h1 className="font-semibold text-blue-500 pb-2 text-xs sm:text-left text-center">
@@ -87,7 +87,7 @@ export default function About() {
                 </p>
               </div>
             </div>
-            <div className=" mx-auto     md:ml-20 lg:mt-8 mt-20">
+            <div className=" mx-auto     md:ml-20 lg:mt-8 sm:mt-20 mt-10">
               <Image
                 src={pfp}
                 width={360}

@@ -8,7 +8,10 @@ import Image from "next/image";
 export default function Contact() {
   return (
     <>
-      <section id="contact" className=" flex pt-24 pb-20 lg:px-32 px-4 ">
+      <section
+        id="contact"
+        className=" flex sm:pt-24 pt-16 pb-20 lg:px-32 px-4 "
+      >
         <div className="    mx-auto ">
           <h1 className="font-bold text-blue-600 pb-2 text-xs text-center">
             Contactez Nous
@@ -20,7 +23,7 @@ export default function Contact() {
             Parlez nous de votre projet et faisons un devis, nous serrons ravi
             de vous aider.
           </p>
-          <a href="tel:0619513185">
+          <a href="tel:0615577418">
             <button className=" mx-auto flex font-bold  text-base bg-blue-600  border border-blue-500 text-white mt-8 py-4  px-8  rounded-full  hover:bg-blue-500 transition-colors">
               <span>
                 <svg

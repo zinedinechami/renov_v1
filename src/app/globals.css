@@ -20,11 +20,14 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 body {
   background-color: #f4f4f5;
   color: black;
+  overflow-x: hidden;
 }
 
 @layer utilities {

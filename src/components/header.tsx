@@ -12,7 +12,7 @@ export default function Header() {
         <div className="flex">
           {/* <Image src={logo} width={90} height={100} quality={100} alt="logo" /> */}
           <a href="#acceuil">
-            <h1 className="bebas-neue-regular  sm:text-3xl text-2xl sm:pt-6 pt-4 sm:pl-10 pl-6 flex-col text-zinc-950 ">
+            <h1 className="bebas-neue-regular  text-3xl sm:pt-6 pt-4 sm:pl-10 pl-6 flex-col text-zinc-950 ">
               RÉNOV À 9
             </h1>
           </a>
@@ -46,7 +46,7 @@ export default function Header() {
         </div>
 
         <a href="#contact">
-          <button className="absolute  sm:top-4 top-2 sm:right-3 right-1 flex font-medium text-sm bg-zinc-950  hover:bg-zinc-700 transition-colors  text-white  py-3 px-5 mr-2   rounded-full  ">
+          <button className="absolute  sm:top-4 top-3 sm:right-3 right-1 flex font-medium sm:text-sm text-xs bg-zinc-950  hover:bg-zinc-700 transition-colors  text-white  py-3 px-5 mr-2   rounded-full  ">
             Contactez Nous
           </button>
         </a>
