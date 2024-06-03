@@ -46,7 +46,7 @@ export default function Header() {
         </div>
 
         <a href="#contact">
-          <button className="absolute  sm:top-4 top-2 sm:right-3 right-1 flex font-semibold text-sm bg-zinc-950  hover:bg-zinc-700 transition-colors  text-white  py-3 px-6 mr-2   rounded-full  ">
+          <button className="absolute  sm:top-4 top-2 sm:right-3 right-1 flex font-medium text-sm bg-zinc-950  hover:bg-zinc-700 transition-colors  text-white  py-3 px-5 mr-2   rounded-full  ">
             Contactez Nous
           </button>
         </a>

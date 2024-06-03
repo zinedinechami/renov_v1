@@ -10,13 +10,13 @@ export default function LandingPage() {
         id="acceuil"
         className=" h-full w-full  [background:radial-gradient(125%_125%_at_50%_10%,#f4f4f5_45%,#1d4ed8_100%)] "
       >
-        <div className="flex flex-col  xl:flex-row  sm:mt-20 mt-8 pb-32 mx-auto px-4 xl:w-9/12">
-          <div className="sm:w-3/5 mx-auto  pt-10">
+        <div className="flex flex-col  xl:flex-row  sm:mt-16 mt-6 pb-32 mx-auto px-4 xl:w-9/12">
+          <div className="sm:w-3/5 mx-auto xl:pl-10  pt-12">
             <h1 className="bebas-neue-regular text-center xl:text-left lg:text-7xl text-5xl font-semibold text-zinc-950 ">
               Rénovez votre bien <span className="text-blue-600">à neuf</span>{" "}
             </h1>
             <div className="xl:text-left text-center ">
-              <p className="text-zinc-900 sm:text-sm text-xs xl:w-10/12">
+              <p className="text-zinc-900 sm:text-sm text-xs xl:w-11/12">
                 Transformez votre maison en un espace de rêve avec nos services
                 de rénovation.
               </p>
@@ -60,19 +60,21 @@ export default function LandingPage() {
                 </li>
               </ul>
               <a href="#contact">
-                <button className="xl:mx-0 mx-auto flex font-medium  text-base bg-blue-600  border border-blue-500  text-white mt-6 py-3  px-8  rounded-full  hover:bg-blue-500 transition-colors">
+                <button className="xl:mx-0 mx-auto flex font-medium  text-base bg-blue-600    text-white mt-6 py-3  px-6  rounded-full  hover:bg-blue-500 transition-colors">
                   Je veux un devis gratuit{" "}
                   <span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
                       viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="w-6 ml-2"
+                      strokeWidth={2}
+                      stroke="currentColor"
+                      className="w-5 h-6  ml-3"
                     >
                       <path
-                        fillRule="evenodd"
-                        d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z"
-                        clipRule="evenodd"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
                       />
                     </svg>
                   </span>
@@ -80,7 +82,7 @@ export default function LandingPage() {
               </a>
             </div>
           </div>
-          <div className=" w-full  xl:pl-40 md:hidden xl:block sm:hidden">
+          <div className=" w-full  xl:pl-32 md:hidden xl:block sm:hidden">
             <Carousel />
           </div>
         </div>
